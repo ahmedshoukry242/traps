@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "Core\\DTOs\\GlobalResponse.cs",
               "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\DTOs\\GlobalResponse.cs",
               "RelativeToolTip": "Core\\DTOs\\GlobalResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T07:22:12.408Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "API\\Controllers\\TrapEmergenciesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:20:34.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:20:34.819Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "API\\Controllers\\Auth\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAAAAAJsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:18:05.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:18:05.433Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "Core\\DTOs\\Auth\\SigninDTOs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:17:54.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:17:54.736Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "Core\\DTOs\\Auth\\UserReadDTOs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:17:53.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:17:53.762Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "Service\\Services\\TrapService.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAiwEIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:15:00.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:15:00.458Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "API\\Controllers\\TrapReadController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:11:19.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:11:19.137Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "Core\\Interfaces\\IServices\\ITrapReadService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:10:29.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:10:29.016Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "Core\\DTOs\\Trap\\Statistic\\StatisticsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:06:16.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:06:16.857Z"
             },
             {
               "$type": "Document",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "Service\\Services\\Auth\\AuthService.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:05:27.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:05:27.864Z"
             },
             {
               "$type": "Document",
@@ -196,8 +187,7 @@
               "RelativeToolTip": "Service\\Services\\TrapReadService.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADwv64AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:05:03.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T07:05:03.317Z"
             }
           ]
         }
