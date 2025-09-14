@@ -471,7 +471,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Core.DTOs.GlobalResponse",
+        "Type": "Core.DTOs.SimpleResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -582,6 +582,46 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.GlobalResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetStatisticsOfTrapsOnlyCurrentUser",
+    "RelativePath": "api/TrapRead/GetStatisticsOfTrapsOnlyCurrentUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.GlobalResponse\u00601[[Core.DTOs.Trap.Statistic.StatisticsDto, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetLastReadingToCurrentUserTrapsAsync",
+    "RelativePath": "api/TrapRead/GetTrapsLastRead",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "Core.DTOs.GlobalResponse",

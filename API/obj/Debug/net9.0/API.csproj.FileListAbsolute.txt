@@ -1080,3 +1080,4 @@ E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\refint\AP
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.pdb
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.genruntimeconfig.cache
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\ref\API.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.sourcelink.json

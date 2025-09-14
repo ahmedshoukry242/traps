@@ -6,16 +6,19 @@ using Core.DTOs.Trap.TrapRead;
 using Core.Entities;
 using Core.Interfaces.IRepositories;
 using Core.Interfaces.IServices;
+using Core.Interfaces.ISystemServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using static Core.DTOs.Trap.TrapRead.ReadResponsesDTOs;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Service.Services
 {
@@ -23,12 +26,12 @@ namespace Service.Services
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        public TrapReadService(IUnitOfWork unitOfWork, IMapper mapper, IHttpContextAccessor httpContextAccessor)
+        private readonly IUserBasicData _userBasicData;
+        public TrapReadService(IUnitOfWork unitOfWork, IMapper mapper, IUserBasicData userBasicData)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _httpContextAccessor = httpContextAccessor;
+            _userBasicData = userBasicData;
         }
 
         public async Task<GlobalResponse> CreateTrapReading(ReadDetailsCreateDto dto)
@@ -92,9 +95,9 @@ namespace Service.Services
 
             var usingDate = DateOnly.FromDateTime(currentTimeInTrapTimeZone);
 
-            var readsQuery = 
+            var readsQuery =
                 from trapReadings in _unitOfWork.TrapReadRepository.GetAllQueryableAsNoTracking()
-                join traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking() on trapReadings.TrapId equals traps.Id   into joinnedTrapRead
+                join traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking() on trapReadings.TrapId equals traps.Id into joinnedTrapRead
                 from traps in joinnedTrapRead.DefaultIfEmpty()
 
                     //from traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
@@ -102,39 +105,39 @@ namespace Service.Services
                     //             from trapReadings in joinnedTrapRead.DefaultIfEmpty()
 
                 join readDetails in _unitOfWork.ReadDetailsRepository.GetAllQueryableAsNoTracking() on trapReadings.Id equals readDetails.TrapReadId into joinnedDetails
-                             from readDetails in joinnedDetails.DefaultIfEmpty()
+                from readDetails in joinnedDetails.DefaultIfEmpty()
 
-                             where traps.Id == trap.Id
-                             //&&
-                             //   (trapReadings.Date >= usingDate)
-                             //   &&
-                             //   (trapReadings.Date < usingDate.AddDays(1))
+                where traps.Id == trap.Id
+                //&&
+                //   (trapReadings.Date >= usingDate)
+                //   &&
+                //   (trapReadings.Date < usingDate.AddDays(1))
                 select new ReadProjectionDto
-                             {
-                                 Id = readDetails.Id,
-                                 TrapId = traps.Id,
-                                 TrapName = traps.Name,
-                                 SerialNumber = traps.SerialNumber,
-                                 TrapReadId = trapReadings.Id,
-                                 ReadingDate = trapReadings.Date,
-                                 ReadingTime = readDetails.Time,
-                                 Lat = readDetails.ReadingLat,
-                                 Long = readDetails.ReadingLng,
-                                 Fan = readDetails.Fan,
-                                 Co2 = readDetails.Co2,
-                                 Counter = readDetails.Counter,
-                                 Co2Val = readDetails.Co2Val,
-                                 Readingsmall = readDetails.ReadingSmall,
-                                 ReadingLarg = readDetails.ReadingLarg,
-                                 ReadingMosuqitoes = readDetails.ReadingMosuqitoes,
-                                 ReadingTempIn = readDetails.ReadingTempIn,
-                                 ReadingTempOut = readDetails.ReadingTempOut,
-                                 ReadingWindSpeed = readDetails.ReadingWindSpeed,
-                                 ReadingHumidty = readDetails.ReadingHumidty,
-                                 ReadingFly = readDetails.ReadingFly,
-                                 BigBattery = readDetails.BigBattery,
-                                 SmallBattery = readDetails.SmallBattery,
-                             };
+                {
+                    Id = readDetails.Id,
+                    TrapId = traps.Id,
+                    TrapName = traps.Name,
+                    SerialNumber = traps.SerialNumber,
+                    TrapReadId = trapReadings.Id,
+                    ReadingDate = trapReadings.Date,
+                    ReadingTime = readDetails.Time,
+                    Lat = readDetails.ReadingLat,
+                    Long = readDetails.ReadingLng,
+                    Fan = readDetails.Fan,
+                    Co2 = readDetails.Co2,
+                    Counter = readDetails.Counter,
+                    Co2Val = readDetails.Co2Val,
+                    Readingsmall = readDetails.ReadingSmall,
+                    ReadingLarg = readDetails.ReadingLarg,
+                    ReadingMosuqitoes = readDetails.ReadingMosuqitoes,
+                    ReadingTempIn = readDetails.ReadingTempIn,
+                    ReadingTempOut = readDetails.ReadingTempOut,
+                    ReadingWindSpeed = readDetails.ReadingWindSpeed,
+                    ReadingHumidty = readDetails.ReadingHumidty,
+                    ReadingFly = readDetails.ReadingFly,
+                    BigBattery = readDetails.BigBattery,
+                    SmallBattery = readDetails.SmallBattery,
+                };
 
 
             if (model.StartDate != null && model.EndDate != null)
@@ -177,7 +180,7 @@ namespace Service.Services
             try
             {
                 // Get user role from HTTP context
-                var userRole = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.Role)?.Value ?? "User";
+                var userRole = _userBasicData.GetRoleName();
                 StatisticsDto statistics;
 
                 if (userRole == RoleName.Superadmin)
@@ -248,5 +251,69 @@ namespace Service.Services
             }
         }
 
+        public async Task<GlobalResponse> GetLastReadingToCurrentUserTrapsAsync()
+        {
+
+            var userRole = _userBasicData.GetRoleName();
+            var userId = _userBasicData.GetUserId();
+
+            var lastReadQuery = from traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
+
+                                let trapReads = traps.trapReads.OrderByDescending(b => b.Date).FirstOrDefault()
+
+                                let userTraps = traps.UserTraps.Select(x => x.UserId)
+
+                                //from readDetails in trapReads.readDetails.OrderByDescending(x => x.Time).Take(1)
+
+                                let readDetails = trapReads != null ? trapReads.readDetails.OrderByDescending(d => d.Time).FirstOrDefault() : null
+
+                                select new
+                                {
+                                    traps,
+                                    trapReads,
+                                    userTraps,
+                                    readDetails
+                                };
+
+
+            if (userRole != RoleName.Superadmin)
+                lastReadQuery = lastReadQuery.Where(x => x.userTraps.Contains(userId));
+
+            var sql = lastReadQuery.ToQueryString();
+
+            var result = await lastReadQuery.ToListAsync();
+            // To be enhanced 
+            var finalResult = result.Select(x =>
+            {
+                var rd = x.readDetails;
+                var tr = x.traps;
+                var trRead = x.trapReads;
+
+                return new LastReadingResponseDto
+                {
+                    Id = rd?.Id,//x.readDetails != null ? x.readDetails.Id : null,
+                    TrapId = tr.Id,
+                    TrapName = tr.Name ?? string.Empty,
+                    SerialNumber = tr.SerialNumber ?? string.Empty,
+                    Lat = rd?.ReadingLat ?? string.Empty, 
+                    Long = rd?.ReadingLng ?? string.Empty, 
+                    Fan = rd?.Fan ?? 0,
+                    Counter = rd?.Counter ?? 0, 
+
+                    ReadingDate = trRead?.Date.ToString("yyyy-MM-dd") ?? string.Empty, 
+                    ReadingTime = rd?.Time.ToString("HH:mm") ?? string.Empty,
+
+                    IsThereEmergency = tr.IsThereEmergency,
+                    ValveQut = tr.ValveQut,
+                    HasReads = rd != null,
+                    ReadingLarg = rd?.ReadingLarg ?? string.Empty,
+                    ReadingSmall = rd?.ReadingSmall ?? string.Empty,
+                    ReadingMosuqitoes = rd?.ReadingMosuqitoes ?? string.Empty
+                };
+            }).ToList();
+
+
+            return new GlobalResponse<List<LastReadingResponseDto>> { Data = finalResult, IsSuccess = true, StatusCode = HttpStatusCode.OK };
+        }
     }
 }

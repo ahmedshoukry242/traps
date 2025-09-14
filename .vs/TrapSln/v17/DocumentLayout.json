@@ -3,48 +3,60 @@
   "WorkspaceRootPath": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\core\\dtos\\globalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|solutionrelative:core\\dtos\\globalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\service\\services\\trapreadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|solutionrelative:service\\services\\trapreadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\api\\controllers\\trapemergenciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|solutionrelative:api\\controllers\\trapemergenciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\core\\dtos\\trap\\trapread\\readresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|solutionrelative:core\\dtos\\trap\\trapread\\readresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\core\\helpers\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|solutionrelative:core\\helpers\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\api\\controllers\\trapreadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|solutionrelative:api\\controllers\\trapreadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\api\\controllers\\auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|solutionrelative:api\\controllers\\auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\core\\dtos\\auth\\signindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|solutionrelative:core\\dtos\\auth\\signindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\service\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|solutionrelative:service\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\core\\dtos\\auth\\userreaddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|solutionrelative:core\\dtos\\auth\\userreaddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\service\\services\\trapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|solutionrelative:service\\services\\trapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\api\\controllers\\auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|solutionrelative:api\\controllers\\auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\core\\interfaces\\iservices\\itrapreadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iservices\\itrapreadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\service\\services\\trapreadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|solutionrelative:service\\services\\trapreadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\service\\systemservices\\userbasicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|solutionrelative:service\\systemservices\\userbasicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\api\\controllers\\trapemergenciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7178161-4418-41DF-B175-61CDCE017BD4}|API\\API.csproj|solutionrelative:api\\controllers\\trapemergenciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\core\\dtos\\auth\\signindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|solutionrelative:core\\dtos\\auth\\signindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\service\\services\\trapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|solutionrelative:service\\services\\trapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\core\\dtos\\trap\\statistic\\statisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20B8436D-631F-463B-A388-B334E2B144A7}|Core\\Core.csproj|solutionrelative:core\\dtos\\trap\\statistic\\statisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|e:\\software\\ahmed shoukry 20250910\\traps - shokry\\service\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93CF62B6-5D10-428D-AC2A-263796266CFE}|Service\\Service.csproj|solutionrelative:service\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,49 +65,64 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 492,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 462,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GlobalResponse.cs",
-              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\DTOs\\GlobalResponse.cs",
-              "RelativeDocumentMoniker": "Core\\DTOs\\GlobalResponse.cs",
-              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\DTOs\\GlobalResponse.cs",
-              "RelativeToolTip": "Core\\DTOs\\GlobalResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TrapReadController.cs",
+              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\TrapReadController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\TrapReadController.cs",
+              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\TrapReadController.cs",
+              "RelativeToolTip": "API\\Controllers\\TrapReadController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:22:12.408Z",
+              "WhenOpened": "2025-09-14T07:11:19.137Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrapReadService.cs",
+              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Services\\TrapReadService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\TrapReadService.cs",
+              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Services\\TrapReadService.cs",
+              "RelativeToolTip": "Service\\Services\\TrapReadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T07:05:03.317Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TrapEmergenciesController.cs",
-              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\TrapEmergenciesController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\TrapEmergenciesController.cs",
-              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\TrapEmergenciesController.cs",
-              "RelativeToolTip": "API\\Controllers\\TrapEmergenciesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\Helpers\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Core\\Helpers\\Mapping\\MappingProfile.cs",
+              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\Helpers\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Core\\Helpers\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwDUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:20:34.819Z"
+              "WhenOpened": "2025-09-14T11:43:57.258Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\Auth\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\Auth\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\Auth\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "API\\Controllers\\Auth\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAAAJsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:18:05.433Z"
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-14T08:04:33.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "SigninDTOs.cs",
               "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\DTOs\\Auth\\SigninDTOs.cs",
               "RelativeDocumentMoniker": "Core\\DTOs\\Auth\\SigninDTOs.cs",
@@ -113,13 +140,13 @@
               "RelativeDocumentMoniker": "Core\\DTOs\\Auth\\UserReadDTOs.cs",
               "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\DTOs\\Auth\\UserReadDTOs.cs",
               "RelativeToolTip": "Core\\DTOs\\Auth\\UserReadDTOs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T07:17:53.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "TrapService.cs",
               "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Services\\TrapService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\TrapService.cs",
@@ -131,15 +158,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrapReadController.cs",
-              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\TrapReadController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\TrapReadController.cs",
-              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\TrapReadController.cs",
-              "RelativeToolTip": "API\\Controllers\\TrapReadController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\Auth\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\Auth\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\Auth\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API\\Controllers\\Auth\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAkwNEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:11:19.137Z"
+              "WhenOpened": "2025-09-14T07:18:05.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Services\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Auth\\AuthService.cs",
+              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Services\\Auth\\AuthService.cs",
+              "RelativeToolTip": "Service\\Services\\Auth\\AuthService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAlwDMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T07:05:27.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserBasicData.cs",
+              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\SystemServices\\UserBasicData.cs",
+              "RelativeDocumentMoniker": "Service\\SystemServices\\UserBasicData.cs",
+              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\SystemServices\\UserBasicData.cs",
+              "RelativeToolTip": "Service\\SystemServices\\UserBasicData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:27:55.406Z"
             },
             {
               "$type": "Document",
@@ -149,13 +200,13 @@
               "RelativeDocumentMoniker": "Core\\Interfaces\\IServices\\ITrapReadService.cs",
               "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\Interfaces\\IServices\\ITrapReadService.cs",
               "RelativeToolTip": "Core\\Interfaces\\IServices\\ITrapReadService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T07:10:29.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "StatisticsDto.cs",
               "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\DTOs\\Trap\\Statistic\\StatisticsDto.cs",
               "RelativeDocumentMoniker": "Core\\DTOs\\Trap\\Statistic\\StatisticsDto.cs",
@@ -168,26 +219,33 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Services\\Auth\\AuthService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Auth\\AuthService.cs",
-              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Services\\Auth\\AuthService.cs",
-              "RelativeToolTip": "Service\\Services\\Auth\\AuthService.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TrapEmergenciesController.cs",
+              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\TrapEmergenciesController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\TrapEmergenciesController.cs",
+              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\Controllers\\TrapEmergenciesController.cs",
+              "RelativeToolTip": "API\\Controllers\\TrapEmergenciesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:05:27.864Z"
-            },
+              "WhenOpened": "2025-09-14T07:20:34.819Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TrapReadService.cs",
-              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Services\\TrapReadService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\TrapReadService.cs",
-              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Services\\TrapReadService.cs",
-              "RelativeToolTip": "Service\\Services\\TrapReadService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADwv64AAABbAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ReadResponseDto.cs",
+              "DocumentMoniker": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\DTOs\\Trap\\TrapRead\\ReadResponseDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Trap\\TrapRead\\ReadResponseDto.cs",
+              "ToolTip": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Core\\DTOs\\Trap\\TrapRead\\ReadResponseDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Trap\\TrapRead\\ReadResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T07:05:03.317Z"
+              "WhenOpened": "2025-09-14T08:47:03.766Z",
+              "EditorCaption": ""
             }
           ]
         }
