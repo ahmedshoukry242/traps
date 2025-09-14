@@ -1,0 +1,1082 @@
+D:\Software\Traps\API\bin\Debug\net9.0\appsettings.Development.json
+D:\Software\Traps\API\bin\Debug\net9.0\appsettings.json
+D:\Software\Traps\API\bin\Debug\net9.0\API.staticwebassets.endpoints.json
+D:\Software\Traps\API\bin\Debug\net9.0\API.exe
+D:\Software\Traps\API\bin\Debug\net9.0\API.deps.json
+D:\Software\Traps\API\bin\Debug\net9.0\API.runtimeconfig.json
+D:\Software\Traps\API\bin\Debug\net9.0\API.dll
+D:\Software\Traps\API\bin\Debug\net9.0\API.pdb
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Core.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Infrastructure.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Service.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Service.pdb
+D:\Software\Traps\API\bin\Debug\net9.0\Infrastructure.pdb
+D:\Software\Traps\API\bin\Debug\net9.0\Core.pdb
+D:\Software\Traps\API\obj\Debug\net9.0\API.csproj.AssemblyReference.cache
+D:\Software\Traps\API\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Software\Traps\API\obj\Debug\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software\Traps\API\obj\Debug\net9.0\API.AssemblyInfoInputs.cache
+D:\Software\Traps\API\obj\Debug\net9.0\API.AssemblyInfo.cs
+D:\Software\Traps\API\obj\Debug\net9.0\API.csproj.CoreCompileInputs.cache
+D:\Software\Traps\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cs
+D:\Software\Traps\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cache
+D:\Software\Traps\API\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\Software\Traps\API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\Software\Traps\API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\Software\Traps\API\obj\Debug\net9.0\scopedcss\bundle\API.styles.css
+D:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.build.json
+D:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.development.json
+D:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Software\Traps\API\obj\Debug\net9.0\API.csproj.Up2Date
+D:\Software\Traps\API\obj\Debug\net9.0\API.dll
+D:\Software\Traps\API\obj\Debug\net9.0\refint\API.dll
+D:\Software\Traps\API\obj\Debug\net9.0\API.pdb
+D:\Software\Traps\API\obj\Debug\net9.0\API.genruntimeconfig.cache
+D:\Software\Traps\API\obj\Debug\net9.0\ref\API.dll
+D:\Software\Traps\API\bin\Debug\net9.0\AutoMapper.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Azure.Core.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Azure.Identity.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Humanizer.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Software\Traps\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.ClientModel.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.CodeDom.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\Software\Traps\API\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Software\Traps\API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Software\Traps\API\bin\Debug\net9.0\appsettings.Development.json
+E:\Software\Traps\API\bin\Debug\net9.0\appsettings.json
+E:\Software\Traps\API\bin\Debug\net9.0\API.staticwebassets.endpoints.json
+E:\Software\Traps\API\bin\Debug\net9.0\API.exe
+E:\Software\Traps\API\bin\Debug\net9.0\API.deps.json
+E:\Software\Traps\API\bin\Debug\net9.0\API.runtimeconfig.json
+E:\Software\Traps\API\bin\Debug\net9.0\API.dll
+E:\Software\Traps\API\bin\Debug\net9.0\API.pdb
+E:\Software\Traps\API\bin\Debug\net9.0\AutoMapper.dll
+E:\Software\Traps\API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Azure.Core.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Azure.Identity.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Humanizer.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Mono.TextTemplating.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.ClientModel.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.CodeDom.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Composition.Convention.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Composition.Hosting.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Composition.Runtime.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Composition.TypedParts.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Drawing.Common.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Memory.Data.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Runtime.Caching.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Security.Permissions.dll
+E:\Software\Traps\API\bin\Debug\net9.0\System.Windows.Extensions.dll
+E:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Software\Traps\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Core.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Infrastructure.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Service.dll
+E:\Software\Traps\API\bin\Debug\net9.0\Service.pdb
+E:\Software\Traps\API\bin\Debug\net9.0\Infrastructure.pdb
+E:\Software\Traps\API\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps\API\obj\Debug\net9.0\API.csproj.AssemblyReference.cache
+E:\Software\Traps\API\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\Software\Traps\API\obj\Debug\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps\API\obj\Debug\net9.0\API.AssemblyInfoInputs.cache
+E:\Software\Traps\API\obj\Debug\net9.0\API.AssemblyInfo.cs
+E:\Software\Traps\API\obj\Debug\net9.0\API.csproj.CoreCompileInputs.cache
+E:\Software\Traps\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cs
+E:\Software\Traps\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cache
+E:\Software\Traps\API\obj\Debug\net9.0\rjimswa.dswa.cache.json
+E:\Software\Traps\API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+E:\Software\Traps\API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+E:\Software\Traps\API\obj\Debug\net9.0\scopedcss\bundle\API.styles.css
+E:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.build.json
+E:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.development.json
+E:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\Software\Traps\API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\Software\Traps\API\obj\Debug\net9.0\API.csproj.Up2Date
+E:\Software\Traps\API\obj\Debug\net9.0\API.dll
+E:\Software\Traps\API\obj\Debug\net9.0\refint\API.dll
+E:\Software\Traps\API\obj\Debug\net9.0\API.pdb
+E:\Software\Traps\API\obj\Debug\net9.0\API.genruntimeconfig.cache
+E:\Software\Traps\API\obj\Debug\net9.0\ref\API.dll
+E:\Software\Traps\API\obj\Debug\net9.0\API.sourcelink.json
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\appsettings.Development.json
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\appsettings.json
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\API.staticwebassets.endpoints.json
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\API.exe
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\API.deps.json
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\API.runtimeconfig.json
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\API.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\API.pdb
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\AutoMapper.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Azure.Core.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Azure.Identity.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Humanizer.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Mono.TextTemplating.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.ClientModel.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.CodeDom.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Composition.Convention.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Composition.Hosting.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Composition.Runtime.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Composition.TypedParts.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Drawing.Common.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Memory.Data.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Runtime.Caching.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Security.Permissions.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\System.Windows.Extensions.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Infrastructure.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Service.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Service.pdb
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Infrastructure.pdb
+E:\Software\Traps - Shokry - 9-7-2025\API\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.csproj.AssemblyReference.cache
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.AssemblyInfoInputs.cache
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.AssemblyInfo.cs
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.csproj.CoreCompileInputs.cache
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cs
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cache
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.sourcelink.json
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\rjimswa.dswa.cache.json
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\scopedcss\bundle\API.styles.css
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\staticwebassets.build.json
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\staticwebassets.development.json
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.csproj.Up2Date
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\refint\API.dll
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.pdb
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\API.genruntimeconfig.cache
+E:\Software\Traps - Shokry - 9-7-2025\API\obj\Debug\net9.0\ref\API.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\appsettings.Development.json
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\appsettings.json
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\API.staticwebassets.endpoints.json
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\API.exe
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\API.deps.json
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\API.runtimeconfig.json
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\API.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\API.pdb
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\AutoMapper.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Azure.Core.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Azure.Identity.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Humanizer.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Mono.TextTemplating.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.ClientModel.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.CodeDom.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.Convention.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.Hosting.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.Runtime.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.TypedParts.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Drawing.Common.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Memory.Data.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Runtime.Caching.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Security.Permissions.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\System.Windows.Extensions.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Infrastructure.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Service.dll
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Service.pdb
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Infrastructure.pdb
+E:\Software\Traps - Shokry\API\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.csproj.AssemblyReference.cache
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.AssemblyInfoInputs.cache
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.AssemblyInfo.cs
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.csproj.CoreCompileInputs.cache
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cs
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cache
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\rjimswa.dswa.cache.json
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\scopedcss\bundle\API.styles.css
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.build.json
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.development.json
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.csproj.Up2Date
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.dll
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\refint\API.dll
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.pdb
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\API.genruntimeconfig.cache
+E:\Software\Traps - Shokry\API\obj\Debug\net9.0\ref\API.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\appsettings.Development.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\appsettings.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.staticwebassets.endpoints.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.exe
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.deps.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.runtimeconfig.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\AutoMapper.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Azure.Core.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Azure.Identity.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Humanizer.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.ClientModel.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.CodeDom.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Core.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Infrastructure.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Service.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Service.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Infrastructure.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Core.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.csproj.AssemblyReference.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.AssemblyInfoInputs.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.AssemblyInfo.cs
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.csproj.CoreCompileInputs.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cs
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\scopedcss\bundle\API.styles.css
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.build.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.development.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.csproj.Up2Date
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\refint\API.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.genruntimeconfig.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\ref\API.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\appsettings.Development.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\appsettings.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.staticwebassets.endpoints.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.exe
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.deps.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.runtimeconfig.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\API.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\AutoMapper.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Azure.Core.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Azure.Identity.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Humanizer.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Mono.TextTemplating.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.ClientModel.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.CodeDom.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.Convention.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.Hosting.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.Runtime.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Composition.TypedParts.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Drawing.Common.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Memory.Data.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Runtime.Caching.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Security.Permissions.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\System.Windows.Extensions.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Core.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Infrastructure.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Service.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Service.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Infrastructure.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\bin\Debug\net9.0\Core.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.csproj.AssemblyReference.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.AssemblyInfoInputs.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.AssemblyInfo.cs
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.csproj.CoreCompileInputs.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cs
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\rjimswa.dswa.cache.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\scopedcss\bundle\API.styles.css
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.build.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.development.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.csproj.Up2Date
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\refint\API.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\API.genruntimeconfig.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\API\obj\Debug\net9.0\ref\API.dll

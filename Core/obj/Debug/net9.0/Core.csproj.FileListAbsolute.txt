@@ -1,0 +1,74 @@
+D:\Software\Traps\Core\bin\Debug\net9.0\Core.deps.json
+D:\Software\Traps\Core\bin\Debug\net9.0\Core.dll
+D:\Software\Traps\Core\bin\Debug\net9.0\Core.pdb
+D:\Software\Traps\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software\Traps\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+D:\Software\Traps\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+D:\Software\Traps\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+D:\Software\Traps\Core\obj\Debug\net9.0\Core.dll
+D:\Software\Traps\Core\obj\Debug\net9.0\refint\Core.dll
+D:\Software\Traps\Core\obj\Debug\net9.0\Core.pdb
+D:\Software\Traps\Core\obj\Debug\net9.0\ref\Core.dll
+D:\Software\Traps\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+E:\Software\Traps\Core\bin\Debug\net9.0\Core.deps.json
+E:\Software\Traps\Core\bin\Debug\net9.0\Core.dll
+E:\Software\Traps\Core\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+E:\Software\Traps\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+E:\Software\Traps\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+E:\Software\Traps\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+E:\Software\Traps\Core\obj\Debug\net9.0\Core.dll
+E:\Software\Traps\Core\obj\Debug\net9.0\refint\Core.dll
+E:\Software\Traps\Core\obj\Debug\net9.0\Core.pdb
+E:\Software\Traps\Core\obj\Debug\net9.0\ref\Core.dll
+E:\Software\Traps\Core\obj\Debug\net9.0\Core.sourcelink.json
+E:\Software\Traps - Shokry - 9-7-2025\Core\bin\Debug\net9.0\Core.deps.json
+E:\Software\Traps - Shokry - 9-7-2025\Core\bin\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry - 9-7-2025\Core\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\Core.sourcelink.json
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\refint\Core.dll
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry - 9-7-2025\Core\obj\Debug\net9.0\ref\Core.dll
+E:\Software\Traps - Shokry\Core\bin\Debug\net9.0\Core.deps.json
+E:\Software\Traps - Shokry\Core\bin\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry\Core\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+E:\Software\Traps - Shokry\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps - Shokry\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+E:\Software\Traps - Shokry\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+E:\Software\Traps - Shokry\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+E:\Software\Traps - Shokry\Core\obj\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry\Core\obj\Debug\net9.0\refint\Core.dll
+E:\Software\Traps - Shokry\Core\obj\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry\Core\obj\Debug\net9.0\ref\Core.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\bin\Debug\net9.0\Core.deps.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\bin\Debug\net9.0\Core.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\bin\Debug\net9.0\Core.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\refint\Core.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\ref\Core.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\bin\Debug\net9.0\Core.deps.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\bin\Debug\net9.0\Core.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\bin\Debug\net9.0\Core.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\refint\Core.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\ref\Core.dll

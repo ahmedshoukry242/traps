@@ -1,0 +1,92 @@
+D:\Software\Traps\Service\bin\Debug\net9.0\Service.deps.json
+D:\Software\Traps\Service\bin\Debug\net9.0\Service.dll
+D:\Software\Traps\Service\bin\Debug\net9.0\Service.pdb
+D:\Software\Traps\Service\bin\Debug\net9.0\Core.dll
+D:\Software\Traps\Service\bin\Debug\net9.0\Core.pdb
+D:\Software\Traps\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+D:\Software\Traps\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software\Traps\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+D:\Software\Traps\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+D:\Software\Traps\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+D:\Software\Traps\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+D:\Software\Traps\Service\obj\Debug\net9.0\Service.dll
+D:\Software\Traps\Service\obj\Debug\net9.0\refint\Service.dll
+D:\Software\Traps\Service\obj\Debug\net9.0\Service.pdb
+D:\Software\Traps\Service\obj\Debug\net9.0\ref\Service.dll
+E:\Software\Traps\Service\bin\Debug\net9.0\Service.deps.json
+E:\Software\Traps\Service\bin\Debug\net9.0\Service.dll
+E:\Software\Traps\Service\bin\Debug\net9.0\Service.pdb
+E:\Software\Traps\Service\bin\Debug\net9.0\Core.dll
+E:\Software\Traps\Service\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+E:\Software\Traps\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+E:\Software\Traps\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+E:\Software\Traps\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+E:\Software\Traps\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+E:\Software\Traps\Service\obj\Debug\net9.0\Service.dll
+E:\Software\Traps\Service\obj\Debug\net9.0\refint\Service.dll
+E:\Software\Traps\Service\obj\Debug\net9.0\Service.pdb
+E:\Software\Traps\Service\obj\Debug\net9.0\ref\Service.dll
+E:\Software\Traps\Service\obj\Debug\net9.0\Service.sourcelink.json
+E:\Software\Traps - Shokry - 9-7-2025\Service\bin\Debug\net9.0\Service.deps.json
+E:\Software\Traps - Shokry - 9-7-2025\Service\bin\Debug\net9.0\Service.dll
+E:\Software\Traps - Shokry - 9-7-2025\Service\bin\Debug\net9.0\Service.pdb
+E:\Software\Traps - Shokry - 9-7-2025\Service\bin\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry - 9-7-2025\Service\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\Service.sourcelink.json
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\Service.dll
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\refint\Service.dll
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\Service.pdb
+E:\Software\Traps - Shokry - 9-7-2025\Service\obj\Debug\net9.0\ref\Service.dll
+E:\Software\Traps - Shokry\Service\bin\Debug\net9.0\Service.deps.json
+E:\Software\Traps - Shokry\Service\bin\Debug\net9.0\Service.dll
+E:\Software\Traps - Shokry\Service\bin\Debug\net9.0\Service.pdb
+E:\Software\Traps - Shokry\Service\bin\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry\Service\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\Service.dll
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\refint\Service.dll
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\Service.pdb
+E:\Software\Traps - Shokry\Service\obj\Debug\net9.0\ref\Service.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Service.deps.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Service.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Service.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Core.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Core.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\refint\Service.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\ref\Service.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Service.deps.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Service.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Service.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Core.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\bin\Debug\net9.0\Core.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\refint\Service.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\ref\Service.dll

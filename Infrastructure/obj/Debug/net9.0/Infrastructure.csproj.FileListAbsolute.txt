@@ -1,0 +1,104 @@
+D:\Software\Traps\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+D:\Software\Traps\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+D:\Software\Traps\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+D:\Software\Traps\Infrastructure\bin\Debug\net9.0\Core.dll
+D:\Software\Traps\Infrastructure\bin\Debug\net9.0\Core.pdb
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+D:\Software\Traps\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+D:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
+E:\Software\Traps\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+E:\Software\Traps\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+E:\Software\Traps\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+E:\Software\Traps\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+E:\Software\Traps\Infrastructure\bin\Debug\net9.0\Core.dll
+E:\Software\Traps\Infrastructure\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+E:\Software\Traps\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\bin\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
+E:\Software\Traps - Shokry - 9-7-2025\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+E:\Software\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+E:\Software\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+E:\Software\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+E:\Software\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+E:\Software\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Core.dll
+E:\Software\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Core.pdb
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
+E:\Software\Traps - Shokry\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Core.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Core.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
+D:\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Core.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\bin\Debug\net9.0\Core.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
