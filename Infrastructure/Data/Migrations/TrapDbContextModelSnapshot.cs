@@ -552,9 +552,8 @@ namespace Infrastructure.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("BigBattery")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("BigBattery")
+                        .HasColumnType("int");
 
                     b.Property<int>("Co2")
                         .HasColumnType("int");
@@ -575,17 +574,14 @@ namespace Infrastructure.Data.Migrations
                     b.Property<bool>("IsDone")
                         .HasColumnType("bit");
 
-                    b.Property<string>("ReadingFly")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ReadingFly")
+                        .HasColumnType("int");
 
-                    b.Property<string>("ReadingHumidty")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ReadingHumidty")
+                        .HasColumnType("int");
 
-                    b.Property<string>("ReadingLarg")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ReadingLarg")
+                        .HasColumnType("int");
 
                     b.Property<string>("ReadingLat")
                         .IsRequired()
@@ -595,33 +591,27 @@ namespace Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ReadingMosuqitoes")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ReadingMosuqitoes")
+                        .HasColumnType("int");
 
-                    b.Property<string>("ReadingSmall")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ReadingSmall")
+                        .HasColumnType("int");
 
-                    b.Property<string>("ReadingTempIn")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ReadingTempIn")
+                        .HasColumnType("int");
 
-                    b.Property<string>("ReadingTempOut")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ReadingTempOut")
+                        .HasColumnType("int");
 
-                    b.Property<string>("ReadingWindSpeed")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ReadingWindSpeed")
+                        .HasColumnType("int");
 
                     b.Property<string>("SerialNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SmallBattery")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("SmallBattery")
+                        .HasColumnType("int");
 
                     b.Property<TimeSpan>("Time")
                         .HasColumnType("time");
@@ -632,6 +622,9 @@ namespace Infrastructure.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("TrapReadId");
+
+                    b.HasIndex("Time", "TrapReadId")
+                        .IsUnique();
 
                     b.ToTable("ReadDetails", (string)null);
                 });
@@ -822,7 +815,8 @@ namespace Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TrapId", "Date");
+                    b.HasIndex("TrapId", "Date")
+                        .IsUnique();
 
                     b.ToTable("TrapReads", (string)null);
                 });

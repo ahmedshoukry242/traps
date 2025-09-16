@@ -102,3 +102,4 @@ E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json

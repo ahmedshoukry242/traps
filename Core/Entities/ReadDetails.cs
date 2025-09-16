@@ -18,20 +18,20 @@ namespace Core.Entities
         public int Fan { get; set; }
         public int Co2 { get; set; }
         public string Co2Val { get; set; }
-        public string ReadingSmall { get; set; }
-        public string ReadingLarg { get; set; }
-        public string ReadingMosuqitoes { get; set; }
-        public string ReadingTempIn { get; set; }
-        public string ReadingTempOut { get; set; }
-        public string ReadingWindSpeed { get; set; }
-        public string ReadingHumidty { get; set; }
+        public int ReadingSmall { get; set; }
+        public int ReadingLarg { get; set; }
+        public int ReadingMosuqitoes { get; set; }
+        public int ReadingTempIn { get; set; }
+        public int ReadingTempOut { get; set; }
+        public int ReadingWindSpeed { get; set; }
+        public int ReadingHumidty { get; set; }
         //public string Amb_Light { get; set; }
         //public string Battery { get; set; }
         //public string Reception { get; set; }
         //public string Power_Draw { get; set; }
-        public string ReadingFly { get; set; }
-        public string BigBattery { get; set; }
-        public string SmallBattery { get; set; }
+        public int ReadingFly { get; set; }
+        public int BigBattery { get; set; }
+        public int SmallBattery { get; set; }
         public bool IsDone { get; set; }
         public bool IsClean { get; set; }
 

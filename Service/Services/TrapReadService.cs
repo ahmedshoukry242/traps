@@ -4,18 +4,24 @@ using Core.DTOs;
 using Core.DTOs.Trap.Statistic;
 using Core.DTOs.Trap.TrapRead;
 using Core.Entities;
+using Core.Entities.Auth;
+using Core.Entities.Lookups;
 using Core.Interfaces.IRepositories;
 using Core.Interfaces.IServices;
+using Core.Interfaces.ISystemServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Net;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using static Core.DTOs.Trap.TrapRead.ReadResponsesDTOs;
+
 
 namespace Service.Services
 {
@@ -23,14 +29,16 @@ namespace Service.Services
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        public TrapReadService(IUnitOfWork unitOfWork, IMapper mapper, IHttpContextAccessor httpContextAccessor)
+        private readonly IUserBasicData _userBasicData;
+        public TrapReadService(IUnitOfWork unitOfWork, IMapper mapper, IUserBasicData userBasicData)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _httpContextAccessor = httpContextAccessor;
+            _userBasicData = userBasicData;
         }
 
+
+        #region Getting Data
         public async Task<GlobalResponse> CreateTrapReading(ReadDetailsCreateDto dto)
         {
             // Getting the Trap
@@ -72,7 +80,6 @@ namespace Service.Services
                 return new GlobalResponse { IsSuccess = false, Message = "Failed to add read details!", StatusCode = HttpStatusCode.BadRequest };
             return new GlobalResponse { IsSuccess = true, StatusCode = HttpStatusCode.OK, Message = "Added!" };
         }
-
         public async Task<GlobalResponse> GetAllTrapReadingsAsync(ReadRequestDto model)
         {
 
@@ -92,49 +99,43 @@ namespace Service.Services
 
             var usingDate = DateOnly.FromDateTime(currentTimeInTrapTimeZone);
 
-            var readsQuery = 
+            var readsQuery =
                 from trapReadings in _unitOfWork.TrapReadRepository.GetAllQueryableAsNoTracking()
-                join traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking() on trapReadings.TrapId equals traps.Id   into joinnedTrapRead
+                join traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking() on trapReadings.TrapId equals traps.Id into joinnedTrapRead
                 from traps in joinnedTrapRead.DefaultIfEmpty()
 
-                    //from traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
-                    //             join trapReadings in _unitOfWork.TrapReadRepository.GetAllQueryableAsNoTracking() on traps.Id equals trapReadings.TrapId into joinnedTrapRead
-                    //             from trapReadings in joinnedTrapRead.DefaultIfEmpty()
 
                 join readDetails in _unitOfWork.ReadDetailsRepository.GetAllQueryableAsNoTracking() on trapReadings.Id equals readDetails.TrapReadId into joinnedDetails
-                             from readDetails in joinnedDetails.DefaultIfEmpty()
+                from readDetails in joinnedDetails.DefaultIfEmpty()
 
-                             where traps.Id == trap.Id
-                             //&&
-                             //   (trapReadings.Date >= usingDate)
-                             //   &&
-                             //   (trapReadings.Date < usingDate.AddDays(1))
+                where traps.Id == trap.Id
+
                 select new ReadProjectionDto
-                             {
-                                 Id = readDetails.Id,
-                                 TrapId = traps.Id,
-                                 TrapName = traps.Name,
-                                 SerialNumber = traps.SerialNumber,
-                                 TrapReadId = trapReadings.Id,
-                                 ReadingDate = trapReadings.Date,
-                                 ReadingTime = readDetails.Time,
-                                 Lat = readDetails.ReadingLat,
-                                 Long = readDetails.ReadingLng,
-                                 Fan = readDetails.Fan,
-                                 Co2 = readDetails.Co2,
-                                 Counter = readDetails.Counter,
-                                 Co2Val = readDetails.Co2Val,
-                                 Readingsmall = readDetails.ReadingSmall,
-                                 ReadingLarg = readDetails.ReadingLarg,
-                                 ReadingMosuqitoes = readDetails.ReadingMosuqitoes,
-                                 ReadingTempIn = readDetails.ReadingTempIn,
-                                 ReadingTempOut = readDetails.ReadingTempOut,
-                                 ReadingWindSpeed = readDetails.ReadingWindSpeed,
-                                 ReadingHumidty = readDetails.ReadingHumidty,
-                                 ReadingFly = readDetails.ReadingFly,
-                                 BigBattery = readDetails.BigBattery,
-                                 SmallBattery = readDetails.SmallBattery,
-                             };
+                {
+                    Id = readDetails.Id,
+                    TrapId = traps.Id,
+                    TrapName = traps.Name,
+                    SerialNumber = traps.SerialNumber,
+                    TrapReadId = trapReadings.Id,
+                    ReadingDate = trapReadings.Date,
+                    ReadingTime = readDetails.Time,
+                    Lat = readDetails.ReadingLat,
+                    Long = readDetails.ReadingLng,
+                    Fan = readDetails.Fan,
+                    Co2 = readDetails.Co2,
+                    Counter = readDetails.Counter,
+                    Co2Val = readDetails.Co2Val,
+                    Readingsmall = readDetails.ReadingSmall,
+                    ReadingLarg = readDetails.ReadingLarg,
+                    ReadingMosuqitoes = readDetails.ReadingMosuqitoes,
+                    ReadingTempIn = readDetails.ReadingTempIn,
+                    ReadingTempOut = readDetails.ReadingTempOut,
+                    ReadingWindSpeed = readDetails.ReadingWindSpeed,
+                    ReadingHumidty = readDetails.ReadingHumidty,
+                    ReadingFly = readDetails.ReadingFly,
+                    BigBattery = readDetails.BigBattery,
+                    SmallBattery = readDetails.SmallBattery,
+                };
 
 
             if (model.StartDate != null && model.EndDate != null)
@@ -154,7 +155,7 @@ namespace Service.Services
                 );
             }
 
-            //var qs = readsQuery.ToQueryString();
+
 
             int count = await readsQuery.CountAsync();
             if (count <= 0)
@@ -168,16 +169,287 @@ namespace Service.Services
 
             var mappedData = _mapper.Map<List<ReadResponseDto>>(finalResult);
 
-            return new GlobalResponse<List<ReadResponseDto>> { Data = mappedData, /*Count = count,*/ IsSuccess = true, Message = "Data retrieved!", StatusCode = HttpStatusCode.OK };
+            return new GlobalResponse<List<ReadResponseDto>> { Data = mappedData.OrderByDescending(x => x.ReadingDate).ToList(), /*Count = count,*/ IsSuccess = true, Message = "Data retrieved!", StatusCode = HttpStatusCode.OK };
+
+        }
+        public async Task<GlobalResponse> GetLastReadingToCurrentUserTrapsAsync()
+        {
+
+            var userRole = _userBasicData.GetRoleName();
+            var userId = _userBasicData.GetUserId();
+
+            var trapsLastReadQuery = from traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
+
+                                     join countries in _unitOfWork.CountryRepository.GetAllQueryableAsNoTracking()
+                                     on traps.CountryId equals countries.Id into trapCountry
+                                     from countries in trapCountry.DefaultIfEmpty()
+
+                                     let trapReads = traps.trapReads.OrderByDescending(b => b.Date).FirstOrDefault()
+
+                                     let userTraps = traps.UserTraps.Select(x => x.UserId)
+
+                                     let readDetails = trapReads != null ? trapReads.readDetails.OrderByDescending(d => d.Time).FirstOrDefault() : null
+                                     select new
+                                     {
+                                         traps,
+                                         trapReads,
+                                         userTraps,
+                                         readDetails,
+                                         countries,
+                                     };
+
+
+            if (userRole != RoleName.Superadmin)
+                trapsLastReadQuery = trapsLastReadQuery.Where(x => x.userTraps.Contains(userId));
+
+            //var sql = trapsLastReadQuery.ToQueryString();
+
+            var result = await trapsLastReadQuery.ToListAsync();
+
+            var finalResult = result.Select(x =>
+            {
+                var rd = x.readDetails;
+                var tr = x.traps;
+                var trRead = x.trapReads;
+
+                var country = x.countries;
+
+                // Default: if missing, show empty
+                string readingDate = string.Empty;
+                string readingTime = string.Empty;
+
+                var readingDateTime = DateTime.UtcNow;
+
+                if (trRead != null && rd != null)
+                {
+                    // 1. Combine DateOnly + TimeOnly into a DateTime
+                    readingDateTime = trRead.Date.ToDateTime(rd.Time);
+
+                    // 2. Apply offset (convert from UTC to local time)
+                    var localDateTime = readingDateTime.AddMinutes(country != null ? country.UtcOffsetMinutes : 0);
+
+                    // 3. Format as strings
+                    readingDate = localDateTime.ToString("yyyy-MM-dd");
+                    readingTime = localDateTime.ToString("HH:mm");
+                }
+
+                return new LastReadingResponseDto
+                {
+                    Id = rd?.Id,//x.readDetails != null ? x.readDetails.Id : null,
+                    TrapId = tr.Id,
+                    TrapName = tr.Name ?? string.Empty,
+                    SerialNumber = tr.SerialNumber ?? string.Empty,
+                    Lat = rd?.ReadingLat ?? string.Empty,
+                    Long = rd?.ReadingLng ?? string.Empty,
+                    Fan = rd?.Fan ?? 0,
+                    Counter = rd?.Counter ?? 0,
+
+                    ReadingDate = readingDate,
+                    ReadingTime = readingTime,
+
+                    IsThereEmergency = tr.IsThereEmergency,
+                    ValveQut = tr.ValveQut,
+                    HasReads = rd != null,
+                    ReadingLarg = rd?.ReadingLarg,
+                    ReadingSmall = rd?.ReadingSmall,
+                    ReadingMosuqitoes = rd?.ReadingMosuqitoes
+                };
+            }).ToList();
+
+
+            return new GlobalResponse<List<LastReadingResponseDto>> { Data = finalResult, IsSuccess = true, StatusCode = HttpStatusCode.OK };
+        }
+
+        public async Task<GlobalResponse> GetAllTrapReadingsPerDayAsync(ReadRequestDto model)
+        {
+            //IEnumerable<ReadResponseDto>
+
+            if (model.StartDate == null || model.EndDate == null)
+                return new GlobalResponse { IsSuccess = false, Message = "Start and end Dates are required!", StatusCode = HttpStatusCode.BadRequest };
+
+            // Retrieve time zone information for the specific trap
+            var trap = await _unitOfWork.TrapRepository.GetFirstOrDefaultAsync(x => x.Id == model.TrapId);
+
+            if (trap is null)
+                return new GlobalResponse { IsSuccess = false, Message = "Trap Not found, please provide a valid trap id", StatusCode = HttpStatusCode.NotFound };
+
+            var readsQuery =
+                from trapReadings in _unitOfWork.TrapReadRepository.GetAllQueryableAsNoTracking()
+                join traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking() on trapReadings.TrapId equals traps.Id into joinnedTrapRead
+                from traps in joinnedTrapRead.DefaultIfEmpty()
+
+                join readDetails in _unitOfWork.ReadDetailsRepository.GetAllQueryableAsNoTracking() on trapReadings.Id equals readDetails.TrapReadId into joinnedDetails
+                from readDetails in joinnedDetails.DefaultIfEmpty()
+
+                where traps.Id == trap.Id
+                &&
+                 (model.StartDate == null || trapReadings.Date >= model.StartDate)
+                &&
+                (model.EndDate == null || trapReadings.Date <= model.EndDate)
+                select new ReadProjectionDto
+                {
+                    Id = readDetails.Id,
+                    TrapId = traps.Id,
+                    TrapName = traps.Name,
+                    SerialNumber = traps.SerialNumber,
+                    TrapReadId = trapReadings.Id,
+                    ReadingDate = trapReadings.Date,
+                    ReadingTime = readDetails.Time,
+                    Lat = readDetails.ReadingLat,
+                    Long = readDetails.ReadingLng,
+                    Fan = readDetails.Fan,
+                    Co2 = readDetails.Co2,
+                    Counter = readDetails.Counter,
+                    Co2Val = readDetails.Co2Val,
+                    Readingsmall = readDetails.ReadingSmall,
+                    ReadingLarg = readDetails.ReadingLarg,
+                    ReadingMosuqitoes = readDetails.ReadingMosuqitoes,
+                    ReadingTempIn = readDetails.ReadingTempIn,
+                    ReadingTempOut = readDetails.ReadingTempOut,
+                    ReadingWindSpeed = readDetails.ReadingWindSpeed,
+                    ReadingHumidty = readDetails.ReadingHumidty,
+                    ReadingFly = readDetails.ReadingFly,
+                    BigBattery = readDetails.BigBattery,
+                    SmallBattery = readDetails.SmallBattery,
+                };
+
+            int count = await readsQuery.CountAsync();
+            if (count <= 0)
+                return new GlobalResponse<List<ReadResponseDto>> { IsSuccess = true, Message = "No data!", StatusCode = HttpStatusCode.OK, Data = new() };
+
+            var readsList = await readsQuery.ToListAsync();
+            var mappedData = _mapper.Map<List<ReadResponseDto>>(readsList);
+
+            var grouppedData = mappedData.GroupBy(x => x.ReadingDate).Select(x => new GrouppedReadingResponse { Date = x.Key, TrapReadingsData = x.Select(d => d).ToList() }).ToList();
+
+            #region Preparing response for empty days
+            int daysCount = model.EndDate.Value.Day - model.StartDate.Value.Day;
+            List<DateOnly> days = new();
+            for (int i = 0; i <= daysCount; i++)
+            {
+                days.Add(model.StartDate.Value.AddDays(i));
+            }
+
+            days = days.Except(grouppedData.Select(x => x.Date)).ToList();
+
+            grouppedData.AddRange(days.Select(d => new GrouppedReadingResponse { TrapReadingsData = new(), Date = d }).ToList());
+
+            #endregion
+
+            return new GlobalResponse<List<GrouppedReadingResponse>> { Data = grouppedData.OrderByDescending(x => x.Date).ToList(), IsSuccess = true, Message = "Data retrieved!", StatusCode = HttpStatusCode.OK };
 
         }
 
+        #endregion
+
+        #region Statistics
+        public async Task<GlobalResponse> GetAllTrapReadsChart(ReadRequestChartDto model)
+        {
+            // Retrieve time zone information for the specific trap
+            var trap = await _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking().Where(x => x.Id == model.TrapId).Include(x => x.Country).FirstOrDefaultAsync();
+
+            if (trap is null)
+                return new GlobalResponse { IsSuccess = false, Message = "Trap Not found, please provide a valid trap id", StatusCode = HttpStatusCode.NotFound };
+
+            if (model.StartDate == null || model.EndDate == null)
+            {
+                model.EndDate = DateOnly.FromDateTime(DateTime.Now);
+
+                if (model.FiltertrapReading == 1)
+                    model.StartDate = model.EndDate.Value.AddDays(-7);
+
+                if (model.FiltertrapReading == 2)
+                    model.StartDate = model.EndDate.Value.AddDays(-30);
+
+                if (model.FiltertrapReading == 3)
+                    model.StartDate = model.EndDate.Value.AddYears(-1);
+            }
+
+            var readsQuery =
+                from trapReadings in _unitOfWork.TrapReadRepository.GetAllQueryableAsNoTracking()
+                join traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking() on trapReadings.TrapId equals traps.Id into joinnedTrapRead
+                from traps in joinnedTrapRead.DefaultIfEmpty()
+
+
+                join readDetails in _unitOfWork.ReadDetailsRepository.GetAllQueryableAsNoTracking() on trapReadings.Id equals readDetails.TrapReadId into joinnedDetails
+                from readDetails in joinnedDetails.DefaultIfEmpty()
+
+                where traps.Id == trap.Id
+                &&
+                (model.StartDate == null || trapReadings.Date >= model.StartDate)
+                &&
+                (model.EndDate == null || trapReadings.Date <= model.EndDate)
+
+                select new TrapReadsChartProjectionDto
+                {
+                    Date = trapReadings.Date,
+                    ReadingLarg = readDetails.ReadingLarg,
+                    ReadingSmall = readDetails.ReadingSmall,
+                    ReadingMosuqitoes = readDetails.ReadingMosuqitoes,
+                    ReadingTempIn = readDetails.ReadingTempIn,
+                    ReadingTempOut = readDetails.ReadingTempOut,
+                    ReadingWindSpeed = readDetails.ReadingWindSpeed,
+                    ReadingHumidty = readDetails.ReadingHumidty,
+                    ReadingFly = readDetails.ReadingFly,
+                    BigBattery = readDetails.BigBattery,
+                    SmallBattery = readDetails.SmallBattery,
+                };
+            var readsList = await readsQuery.ToListAsync();
+
+
+            List<TrapReadsChartDto> result = new();
+
+            if (model.FiltertrapReading == 3)
+            {
+                result = readsList
+                  .GroupBy(x => new { x.Date.Year, x.Date.Month })
+                  .Select(g => new TrapReadsChartDto
+                  {
+                      Date = g.Select(c=>c.Date).FirstOrDefault().ToString("MMMM"),
+                      ReadingSmall = g.Sum(x => x.ReadingSmall),
+                      ReadingLarg = g.Sum(x => x.ReadingLarg),
+                      ReadingMosuqitoes = g.Sum(x => x.ReadingMosuqitoes),
+                      ReadingTempIn = g.Average(x => x.ReadingTempIn),
+                      ReadingTempOut = g.Average(x => x.ReadingTempOut),
+                      ReadingWindSpeed = g.Average(x => x.ReadingWindSpeed),
+                      ReadingHumidty = g.Average(x => x.ReadingHumidty),
+                      ReadingFly = g.Sum(x => x.ReadingFly),
+                      BigBattery = (int)g.Average(x => x.BigBattery),
+                      SmallBattery = (int)g.Average(x => x.SmallBattery)
+                  })
+                  .ToList();
+            }
+            else
+            {
+
+                result = readsList
+                    .GroupBy(x => x.Date) // just the day part
+                    .Select(g => new TrapReadsChartDto
+                    {
+                        Date = g.Key.ToString(),
+                        ReadingLarg = g.Sum(x => x.ReadingLarg),
+                        ReadingSmall = g.Sum(x => x.ReadingSmall),
+                        ReadingMosuqitoes = g.Sum(x => x.ReadingMosuqitoes),
+                        ReadingTempIn = g.Average(x => x.ReadingTempIn),
+                        ReadingTempOut = g.Average(x => x.ReadingTempOut),
+                        ReadingWindSpeed = g.Average(x => x.ReadingWindSpeed),
+                        ReadingHumidty = g.Average(x => x.ReadingHumidty),
+                        ReadingFly = g.Sum(x => x.ReadingFly),
+                        BigBattery = (int)g.Average(x => x.BigBattery),
+                        SmallBattery = (int)g.Average(x => x.SmallBattery)
+                    })
+                    .ToList();
+            }
+
+            return new GlobalResponse<List<TrapReadsChartDto>> { Data = result, IsSuccess = true, StatusCode = HttpStatusCode.OK };
+
+        }
         public async Task<GlobalResponse<StatisticsDto>> GetUserTrapStatistics(Guid userId)
         {
             try
             {
                 // Get user role from HTTP context
-                var userRole = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.Role)?.Value ?? "User";
+                var userRole = _userBasicData.GetRoleName();
                 StatisticsDto statistics;
 
                 if (userRole == RoleName.Superadmin)
@@ -247,6 +519,150 @@ namespace Service.Services
                 };
             }
         }
+
+        public async Task<GlobalResponse> GetStatisticsForTrapReadingsAsInsectsAsync()
+        {
+            var currentDate = DateOnly.FromDateTime(DateTime.UtcNow);
+
+            Expression<Func<UserTraps, bool>> filter = x => true;
+
+            if (_userBasicData.GetRoleName() != RoleName.Superadmin)
+                filter = x => x.UserId == _userBasicData.GetUserId();
+
+
+            var trapsForUser = await _unitOfWork.UserTrapsRepository.GetAllQueryableAsNoTracking()
+                .Where(filter)
+                .Select(u => u.Trap)
+                .Distinct()
+                .Select(trap => new StatisticsForTrapReadingsAsInsectsDto
+                {
+                    SmallCount = trap.trapReads
+                        .Where(tr => tr.Date == currentDate)
+                        .SelectMany(tr => tr.readDetails)
+                        .Sum(rd => rd.ReadingSmall),
+
+                    LargeCount = trap.trapReads
+                        .Where(tr => tr.Date == currentDate)
+                        .SelectMany(tr => tr.readDetails)
+                        .Sum(rd => rd.ReadingLarg),
+
+                    FlyesCount = trap.trapReads
+                        .Where(tr => tr.Date == currentDate)
+                        .SelectMany(tr => tr.readDetails)
+                        .Sum(rd => rd.ReadingFly),
+
+                    MosuqitoesCount = trap.trapReads
+                        .Where(tr => tr.Date == currentDate)
+                        .SelectMany(tr => tr.readDetails)
+                        .Sum(rd => rd.ReadingMosuqitoes),
+                })
+                .AsNoTracking()
+                .ToListAsync();
+
+            var sumOfAllElements = new StatisticsForTrapReadingsAsInsectsDto
+            {
+                SmallCount = trapsForUser.Sum(t => t.SmallCount),
+                LargeCount = trapsForUser.Sum(t => t.LargeCount),
+                FlyesCount = trapsForUser.Sum(t => t.FlyesCount),
+                MosuqitoesCount = trapsForUser.Sum(t => t.MosuqitoesCount),
+                TotalInsects = trapsForUser.Sum(t => t.SmallCount + t.LargeCount + t.FlyesCount + t.MosuqitoesCount),
+            };
+
+            // Percentages (safe handling: avoid divide by zero)
+            if (sumOfAllElements.TotalInsects > 0)
+            {
+                sumOfAllElements.FlyesPercentage = sumOfAllElements.FlyesCount / sumOfAllElements.TotalInsects * 100;
+                sumOfAllElements.SmallPercentage = sumOfAllElements.SmallCount / sumOfAllElements.TotalInsects * 100;
+                sumOfAllElements.LargePercentage = sumOfAllElements.LargeCount / sumOfAllElements.TotalInsects * 100;
+                sumOfAllElements.MosuqitoesPercentage = sumOfAllElements.MosuqitoesCount / sumOfAllElements.TotalInsects * 100;
+            }
+
+            return new GlobalResponse<StatisticsForTrapReadingsAsInsectsDto> { Data = sumOfAllElements, IsSuccess = true, StatusCode = HttpStatusCode.OK };
+
+        }
+
+        public async Task<GlobalResponse> GetCountOfMosuqitoesToLastSixDaysAsync(bool isMosquito)
+        {
+
+            var userId = _userBasicData.GetUserId();
+            var role = _userBasicData.GetRoleName();
+
+            var endDate = DateOnly.FromDateTime(DateTime.Now);
+            var startDate = endDate.AddDays(-6);
+
+            List<MosuqitoesCountDto> list = new();
+            if (role == RoleName.Superadmin)
+            {
+
+                list = (await _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
+                        .SelectMany(t => t.trapReads) // get trapReads for ALL traps
+                        .Where(tr => tr.Date >= startDate && tr.Date <= endDate)
+                        .SelectMany(tr => tr.readDetails.Select(rd => new
+                        {
+                            tr.Date,
+                            rd.ReadingMosuqitoes,
+                            rd.ReadingFly
+                        })).ToListAsync())
+
+                        .GroupBy(x => x.Date)
+                        .Select(group => new MosuqitoesCountDto
+                        {
+                            DateInNumber = group.Key.Day,
+                            DateOfMonth = group.Key,
+                            Date = new DateTime(group.Key.Year, group.Key.Month, group.Key.Day).ToString("dddd"),
+                            InsectsCount = isMosquito
+                                ? group.Sum(x => x.ReadingMosuqitoes)
+                                : group.Sum(x => x.ReadingFly)
+                        })
+                        .ToList();
+            }
+            else
+            {
+                 
+
+                list = (await _unitOfWork.UserTrapsRepository.GetAllQueryableAsNoTracking()
+                   .Where(ut => ut.UserId == userId)
+                   .SelectMany(ut => ut.Trap.trapReads) // get trapReads for the user’s traps
+                   .Where(tr => tr.Date >= startDate && tr.Date <= endDate)
+                   .SelectMany(tr => tr.readDetails.Select(rd => new
+                   {
+                       tr.Date,
+                       rd.ReadingMosuqitoes,
+                       rd.ReadingFly
+                   })) .ToListAsync())
+                   .GroupBy(x => x.Date)
+                   .Select(group => new MosuqitoesCountDto
+                   {
+                       DateInNumber = group.Key.Day,
+                       DateOfMonth = group.Key,
+                       Date = new DateTime(group.Key.Year, group.Key.Month, group.Key.Day).ToString("dddd"),
+                       InsectsCount = isMosquito
+                           ? group.Sum(x => x.ReadingMosuqitoes)
+                           : group.Sum(x => x.ReadingFly)
+                   })
+                   .ToList();
+            }
+
+            // Create a list of days within the range
+            var allDaysInRange = Enumerable.Range(0, 7).Select(i => startDate.AddDays(i).Day).ToList();
+
+            // Add missing days with default values
+            List<MosuqitoesCountDto> listOfObj = new();
+            listOfObj.AddRange(allDaysInRange.Except(list.Select(x => x.DateInNumber)).Select(day =>
+                new MosuqitoesCountDto
+                {
+                    DateInNumber = day,
+                    DateOfMonth = new DateOnly(startDate.Year, startDate.Month, day),
+                    Date = new DateOnly(startDate.Year, startDate.Month, day).ToString("dddd"),
+                    InsectsCount = 0 // Default value for missing days
+                }));
+
+            listOfObj.AddRange(list);
+
+            return new GlobalResponse<List<MosuqitoesCountDto>> { Data = listOfObj.OrderBy(v => v.DateInNumber).ToList(), IsSuccess = true, StatusCode = HttpStatusCode.OK };
+        }
+        #endregion
+
 
     }
 }

@@ -109,7 +109,7 @@ namespace Service.Services
 
         public async Task<GlobalResponse> GetAllTrapsAsync(TrapFilters.trapAllFilter filter)
         {
-            List<GetTrapresponse> traps;
+            IQueryable<Trap> trapsQuery;
 
             if (filter.UserId is not null || GetRoleName() != RoleName.Superadmin)
             {
@@ -118,7 +118,8 @@ namespace Service.Services
                 if (filter.UserId is not null)
                     uId = Guid.Parse(filter.UserId);
 
-                traps = await _unitOfWork.UserTrapsRepository.GetAllQueryableAsNoTracking()
+                trapsQuery = _unitOfWork.UserTrapsRepository.GetAllQueryableAsNoTracking()
+
                         .Where(
                         x => x.UserId == uId
                                                                                 &&
@@ -128,23 +129,34 @@ namespace Service.Services
                                                                                 &&
                                                                                 (filter.categoryId == 0 || x.Trap.CategoryId == filter.categoryId)
                                                                                 )
-                        .Select(UserTrapsProjection()).ToListAsync();
+                        .Select(x => x.Trap)
+                        .AsSplitQuery()
+                        .AsNoTracking();
+
             }
             else // superadmin or not filters with userId
             {
-                traps = await _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
-                    .Where(x =>
+
+                trapsQuery = _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
+                                .Include(t => t.TrapEmergencies)
+                                .Include(t => t.TrapCounterSchedules)
+                                .Include(t => t.TrapFanSchedules)
+                                .Include(t => t.TrapValveQutSchedules)
+                                 .Where(x =>
                                                  (filter.TrapId == null || x.Id == filter.TrapId) &&
                                                  (filter.SerialNumber == null || x.SerialNumber!.Contains(filter.SerialNumber)) &&
                                                  (filter.categoryId == 0 || x.CategoryId == filter.categoryId))
-                    .Select(TrapsProjection()).ToListAsync();
+                                .AsSplitQuery()
+                                .AsNoTracking();
             }
+
+            var res = await trapsQuery.Select(TrapsProjection()).ToListAsync();
 
             return new GlobalResponse<List<GetTrapresponse>>
             {
-                Data = traps,
+                Data = res,
                 IsSuccess = true,
-                Message = traps.Any() ? "Data Retrieved!" : "No Data Found!",
+                Message = trapsQuery.Any() ? "Data Retrieved!" : "No Data Found!",
                 StatusCode = HttpStatusCode.OK
             };
         }

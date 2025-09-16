@@ -1,4 +1,5 @@
-﻿using Core.Interfaces.ISystemServices;
+﻿using Core.Constants;
+using Core.Interfaces.ISystemServices;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace Service.SystemServices
             _accessor = accessor;
         }
         public string GetRoleName() =>
-        _accessor!.HttpContext == null ? string.Empty : _accessor!.HttpContext!.User.FindFirstValue(ClaimTypes.Role);
+        _accessor!.HttpContext == null ? string.Empty : _accessor!.HttpContext!.User.FindFirstValue(ClaimTypes.Role) ?? RoleName.User;
 
         public Guid GetUserId() =>
         Guid.Parse(_accessor!.HttpContext == null ? string.Empty : _accessor!.HttpContext!.User.FindFirstValue(ClaimTypes.NameIdentifier));

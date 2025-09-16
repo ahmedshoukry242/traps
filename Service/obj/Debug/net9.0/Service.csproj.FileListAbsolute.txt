@@ -90,3 +90,4 @@ E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Servi
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\refint\Service.dll
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.pdb
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\ref\Service.dll
+E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.sourcelink.json

@@ -41,7 +41,25 @@ namespace API.Controllers
                 return BadRequest(res);
             return Ok(res);
         }
+        
+        [HttpGet("GetAllTrapReadingsPerDay")]
+        [Authorize(Roles = $"{RoleName.Superadmin},{RoleName.SuperVisor},{RoleName.User}")]
+        public async Task<ActionResult<GlobalResponse>> GetAllTrapReadingsPerDayAsync([FromQuery]ReadRequestDto model)
+        {
+            var res = await _trapReadService.GetAllTrapReadingsPerDayAsync(model);
+            if (!res.IsSuccess)
+                return BadRequest(res);
+            return Ok(res);
+        }
 
+        [HttpGet("GetAllTrapReadsChart")]
+        public async Task<ActionResult<GlobalResponse>> GetAllTrapReadsChart([FromQuery]ReadRequestChartDto model)
+        {
+            var res = await _trapReadService.GetAllTrapReadsChart(model);
+            if (!res.IsSuccess)
+                return BadRequest(res);
+            return Ok(res);
+        }
 
         [HttpGet("GetStatisticsOfTrapsOnlyCurrentUser")]
         [Authorize]
@@ -58,6 +76,54 @@ namespace API.Controllers
                 return BadRequest(result);
             return Ok(result);
         }
+
+        [Authorize(Roles = $"{RoleName.Superadmin},{RoleName.User},{RoleName.UserChild},{RoleName.SuperVisor}")]
+        [HttpGet("GetTrapsLastRead")]
+        public async Task<ActionResult<GlobalResponse>> GetLastReadingToCurrentUserTrapsAsync()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
+            }
+            var result = await _trapReadService.GetLastReadingToCurrentUserTrapsAsync();
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+
+        }
+
+        [HttpGet("GetStatisticsForAllTrapsReadingsAsInsects")]
+        public async Task<ActionResult<GlobalResponse>> GetStatisticsForTrapReadingsAsInsectsAsync()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
+            }
+            var result = await _trapReadService.GetStatisticsForTrapReadingsAsInsectsAsync();
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpGet("GetCountOfMosuqitoesPerSevenDays")]
+        public async Task<ActionResult<GlobalResponse>> GetCountOfMosuqitoesToLastSixDaysAsync(bool isMosquitoe)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
+            }
+            var result = await _trapReadService.GetCountOfMosuqitoesToLastSixDaysAsync(isMosquitoe);
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+
+
+
 
     }
 }
