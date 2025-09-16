@@ -4,6 +4,8 @@ using Core.DTOs;
 using Core.DTOs.Trap.Statistic;
 using Core.DTOs.Trap.TrapRead;
 using Core.Entities;
+using Core.Entities.Auth;
+using Core.Entities.Lookups;
 using Core.Interfaces.IRepositories;
 using Core.Interfaces.IServices;
 using Core.Interfaces.ISystemServices;
@@ -13,12 +15,13 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Net;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using static Core.DTOs.Trap.TrapRead.ReadResponsesDTOs;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+
 
 namespace Service.Services
 {
@@ -257,37 +260,60 @@ namespace Service.Services
             var userRole = _userBasicData.GetRoleName();
             var userId = _userBasicData.GetUserId();
 
-            var lastReadQuery = from traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
+            var trapsLastReadQuery = from traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
 
-                                let trapReads = traps.trapReads.OrderByDescending(b => b.Date).FirstOrDefault()
+                                     join countries in _unitOfWork.CountryRepository.GetAllQueryableAsNoTracking()
+                                     on traps.CountryId equals countries.Id into trapCountry
+                                     from countries in trapCountry.DefaultIfEmpty()
 
-                                let userTraps = traps.UserTraps.Select(x => x.UserId)
+                                     let trapReads = traps.trapReads.OrderByDescending(b => b.Date).FirstOrDefault()
 
-                                //from readDetails in trapReads.readDetails.OrderByDescending(x => x.Time).Take(1)
+                                     let userTraps = traps.UserTraps.Select(x => x.UserId)
 
-                                let readDetails = trapReads != null ? trapReads.readDetails.OrderByDescending(d => d.Time).FirstOrDefault() : null
-
-                                select new
-                                {
-                                    traps,
-                                    trapReads,
-                                    userTraps,
-                                    readDetails
-                                };
+                                     let readDetails = trapReads != null ? trapReads.readDetails.OrderByDescending(d => d.Time).FirstOrDefault() : null
+                                     select new
+                                     {
+                                         traps,
+                                         trapReads,
+                                         userTraps,
+                                         readDetails,
+                                         countries,
+                                     };
 
 
             if (userRole != RoleName.Superadmin)
-                lastReadQuery = lastReadQuery.Where(x => x.userTraps.Contains(userId));
+                trapsLastReadQuery = trapsLastReadQuery.Where(x => x.userTraps.Contains(userId));
 
-            var sql = lastReadQuery.ToQueryString();
+            //var sql = trapsLastReadQuery.ToQueryString();
 
-            var result = await lastReadQuery.ToListAsync();
-            // To be enhanced 
+            var result = await trapsLastReadQuery.ToListAsync();
+
             var finalResult = result.Select(x =>
             {
                 var rd = x.readDetails;
                 var tr = x.traps;
                 var trRead = x.trapReads;
+
+                var country = x.countries;
+
+                // Default: if missing, show empty
+                string readingDate = string.Empty;
+                string readingTime = string.Empty;
+
+                var readingDateTime = DateTime.UtcNow;
+
+                if (trRead != null && rd != null)
+                {
+                    // 1. Combine DateOnly + TimeOnly into a DateTime
+                    readingDateTime = trRead.Date.ToDateTime(rd.Time);
+
+                    // 2. Apply offset (convert from UTC to local time)
+                    var localDateTime = readingDateTime.AddMinutes(country != null ? country.UtcOffsetMinutes : 0);
+
+                    // 3. Format as strings
+                    readingDate = localDateTime.ToString("yyyy-MM-dd");
+                    readingTime = localDateTime.ToString("HH:mm");
+                }
 
                 return new LastReadingResponseDto
                 {
@@ -295,25 +321,136 @@ namespace Service.Services
                     TrapId = tr.Id,
                     TrapName = tr.Name ?? string.Empty,
                     SerialNumber = tr.SerialNumber ?? string.Empty,
-                    Lat = rd?.ReadingLat ?? string.Empty, 
-                    Long = rd?.ReadingLng ?? string.Empty, 
+                    Lat = rd?.ReadingLat ?? string.Empty,
+                    Long = rd?.ReadingLng ?? string.Empty,
                     Fan = rd?.Fan ?? 0,
-                    Counter = rd?.Counter ?? 0, 
+                    Counter = rd?.Counter ?? 0,
 
-                    ReadingDate = trRead?.Date.ToString("yyyy-MM-dd") ?? string.Empty, 
-                    ReadingTime = rd?.Time.ToString("HH:mm") ?? string.Empty,
+                    ReadingDate = readingDate,
+                    ReadingTime = readingTime,
 
                     IsThereEmergency = tr.IsThereEmergency,
                     ValveQut = tr.ValveQut,
                     HasReads = rd != null,
-                    ReadingLarg = rd?.ReadingLarg ?? string.Empty,
-                    ReadingSmall = rd?.ReadingSmall ?? string.Empty,
-                    ReadingMosuqitoes = rd?.ReadingMosuqitoes ?? string.Empty
+                    ReadingLarg = rd?.ReadingLarg,
+                    ReadingSmall = rd?.ReadingSmall,
+                    ReadingMosuqitoes = rd?.ReadingMosuqitoes
                 };
             }).ToList();
 
 
             return new GlobalResponse<List<LastReadingResponseDto>> { Data = finalResult, IsSuccess = true, StatusCode = HttpStatusCode.OK };
         }
+
+        public async Task<GlobalResponse> GetStatisticsForTrapReadingsAsInsectsAsync()
+        {
+            var currentDate = DateOnly.FromDateTime(DateTime.UtcNow);
+
+            Expression<Func<UserTraps, bool>> filter = x => true;
+
+            if (_userBasicData.GetRoleName() != RoleName.Superadmin)
+                filter = x => x.UserId == _userBasicData.GetUserId();
+
+
+            var trapsForUser = await _unitOfWork.UserTrapsRepository.GetAllQueryableAsNoTracking()
+                .Where(filter)
+                .Select(u => u.Trap)
+                .Distinct()
+                .Select(trap => new StatisticsForTrapReadingsAsInsectsDto
+                {
+                    SmallCount = trap.trapReads
+                        .Where(tr => tr.Date == currentDate)
+                        .SelectMany(tr => tr.readDetails)
+                        .Sum(rd => rd.ReadingSmall),
+
+                    LargeCount = trap.trapReads
+                        .Where(tr => tr.Date == currentDate)
+                        .SelectMany(tr => tr.readDetails)
+                        .Sum(rd => rd.ReadingLarg),
+
+                    FlyesCount = trap.trapReads
+                        .Where(tr => tr.Date == currentDate)
+                        .SelectMany(tr => tr.readDetails)
+                        .Sum(rd => rd.ReadingFly),
+
+                    MosuqitoesCount = trap.trapReads
+                        .Where(tr => tr.Date == currentDate)
+                        .SelectMany(tr => tr.readDetails)
+                        .Sum(rd => rd.ReadingMosuqitoes),
+                })
+                .AsNoTracking()
+                .ToListAsync();
+
+            var sumOfAllElements = new StatisticsForTrapReadingsAsInsectsDto
+            {
+                SmallCount = trapsForUser.Sum(t => t.SmallCount),
+                LargeCount = trapsForUser.Sum(t => t.LargeCount),
+                FlyesCount = trapsForUser.Sum(t => t.FlyesCount),
+                MosuqitoesCount = trapsForUser.Sum(t => t.MosuqitoesCount),
+                TotalInsects = trapsForUser.Sum(t => t.SmallCount + t.LargeCount + t.FlyesCount + t.MosuqitoesCount),
+            };
+
+            // Percentages (safe handling: avoid divide by zero)
+            if (sumOfAllElements.TotalInsects > 0)
+            {
+                sumOfAllElements.FlyesPercentage = sumOfAllElements.FlyesCount / sumOfAllElements.TotalInsects * 100;
+                sumOfAllElements.SmallPercentage = sumOfAllElements.SmallCount / sumOfAllElements.TotalInsects * 100;
+                sumOfAllElements.LargePercentage = sumOfAllElements.LargeCount / sumOfAllElements.TotalInsects * 100;
+                sumOfAllElements.MosuqitoesPercentage = sumOfAllElements.MosuqitoesCount / sumOfAllElements.TotalInsects * 100;
+            }
+
+            return new GlobalResponse<StatisticsForTrapReadingsAsInsectsDto> { Data = sumOfAllElements, IsSuccess = true, StatusCode = HttpStatusCode.OK };
+
+        }
+
+        public async Task<GlobalResponse> GetCountOfMosuqitoesToLastSixDaysAsync(bool isMosquito)
+        {
+
+            var userId = _userBasicData.GetUserId();
+
+            var endDate = DateOnly.FromDateTime(DateTime.Now);
+            var startDate = endDate.AddDays(-6);
+
+            var list = await _unitOfWork.UserTrapsRepository.GetAllQueryableAsNoTracking()
+                .Where(ut => ut.UserId == userId)
+                .SelectMany(ut => ut.Trap.trapReads) // get trapReads for the user’s traps
+                .Where(tr => tr.Date >= startDate && tr.Date <= endDate)
+                .SelectMany(tr => tr.readDetails.Select(rd => new
+                {
+                    tr.Date,
+                    rd.ReadingMosuqitoes,
+                    rd.ReadingFly
+                })) // flatten trapReads + readDetails
+                .GroupBy(x => x.Date.Day)
+                .Select(group => new MosuqitoesCountDto
+                {
+                    DateInNumber = group.Key,
+                    Date = new DateOnly(startDate.Year, startDate.Month, group.Key).ToString("dddd"),
+                    InsectsCount = isMosquito
+                        ? group.Sum(x => x.ReadingMosuqitoes)
+                        : group.Sum(x => x.ReadingFly)
+                })
+                .ToListAsync();
+
+            // Create a list of days within the range
+            var allDaysInRange = Enumerable.Range(0, 7).Select(i => startDate.AddDays(i).Day).ToList();
+
+            // Add missing days with default values
+            List<MosuqitoesCountDto> listOfObj = new();
+            listOfObj.AddRange(allDaysInRange.Except(list.Select(x => x.DateInNumber)).Select(day =>
+                new MosuqitoesCountDto
+                {
+                    DateInNumber = day,
+                    Date = new DateOnly(startDate.Year, startDate.Month, day).ToString("dddd"),
+                    InsectsCount = 0 // Default value for missing days
+                }));
+
+            listOfObj.AddRange(list);
+
+            return new GlobalResponse<List<MosuqitoesCountDto>> { Data = listOfObj.OrderBy(v => v.DateInNumber).ToList(),IsSuccess = true,StatusCode = HttpStatusCode.OK };
+        }
+
+
+
     }
 }

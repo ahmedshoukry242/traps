@@ -30,14 +30,14 @@ namespace Core.DTOs.Trap.TrapRead
 
             public int? Co2 { get; set; } = 0;
             public string Co2Val { get; set; } = string.Empty;
-            public string Readingsmall { get; set; } = string.Empty;
-            public string ReadingLarg { get; set; } = string.Empty;
-            public string ReadingMosuqitoes { get; set; } = string.Empty;
+            public int Readingsmall { get; set; }
+            public int ReadingLarg { get; set; }
+            public int ReadingMosuqitoes { get; set; }
             public string ReadingTempIn { get; set; } = string.Empty;
             public string ReadingTempOut { get; set; } = string.Empty;
             public string ReadingWindSpeed { get; set; } = string.Empty;
             public string ReadingHumidty { get; set; } = string.Empty;
-            public string ReadingFly { get; set; } = string.Empty;
+            public int ReadingFly { get; set; }
             public string BigBattery { get; set; } = string.Empty;
             public string SmallBattery { get; set; } = string.Empty;
         }
@@ -47,21 +47,6 @@ namespace Core.DTOs.Trap.TrapRead
             public new string ReadingTime { get; set; } = string.Empty;
         }
 
-        // Last reading 
-        //public class LastReadingProjectionDto : ReadBasicDataDto
-        //{
-        //    public DateOnly? ReadingDate { get; set; }
-        //    public string Name { get; set; } = string.Empty;
-        //    public int? ValveQut { get; set; }
-        //    public bool IsThereEmergency { get; set; }
-        //    public TimeOnly? ReadingTime { get; set; }
-        //    public IEnumerable<Guid> Users { get; set; }
-        //}
-        //public class LastReadingProjectionDto
-        //{
-
-        //}
-
         public class LastReadingResponseDto : ReadBasicDataDto
         {
             public string ReadingDate { get; set; }
@@ -69,9 +54,9 @@ namespace Core.DTOs.Trap.TrapRead
             public bool IsThereEmergency { get; set; }
             public string ReadingTime { get; set; }
             public bool HasReads { get; set; }
-            public string ReadingSmall { get; set; }
-            public string ReadingLarg { get; set; }
-            public string ReadingMosuqitoes { get; set; }
+            public int? ReadingSmall { get; set; }
+            public int? ReadingLarg { get; set; }
+            public int? ReadingMosuqitoes { get; set; }
         }
 
 

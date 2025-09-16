@@ -596,6 +596,52 @@
   },
   {
     "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetCountOfMosuqitoesToLastSixDaysAsync",
+    "RelativePath": "api/TrapRead/GetCountOfMosuqitoesPerSevenDays",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isMosquitoe",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.GlobalResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetStatisticsForTrapReadingsAsInsectsAsync",
+    "RelativePath": "api/TrapRead/GetStatisticsForAllTrapsReadingsAsInsects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.GlobalResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
     "Method": "GetStatisticsOfTrapsOnlyCurrentUser",
     "RelativePath": "api/TrapRead/GetStatisticsOfTrapsOnlyCurrentUser",
     "HttpMethod": "GET",

@@ -75,5 +75,37 @@ namespace API.Controllers
 
         }
 
+        [HttpGet("GetStatisticsForAllTrapsReadingsAsInsects")]
+        public async Task<ActionResult<GlobalResponse>> GetStatisticsForTrapReadingsAsInsectsAsync()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
+            }
+            var result = await _trapReadService.GetStatisticsForTrapReadingsAsInsectsAsync();
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpGet("GetCountOfMosuqitoesPerSevenDays")]
+        public async Task<ActionResult<GlobalResponse>> GetCountOfMosuqitoesToLastSixDaysAsync(bool isMosquitoe)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
+            }
+            var result = await _trapReadService.GetCountOfMosuqitoesToLastSixDaysAsync(isMosquitoe);
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+
+
+
+
     }
 }

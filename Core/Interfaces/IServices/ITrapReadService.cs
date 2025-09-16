@@ -15,5 +15,7 @@ namespace Core.Interfaces.IServices
         Task<GlobalResponse> GetAllTrapReadingsAsync(ReadRequestDto model);
         Task<GlobalResponse<StatisticsDto>> GetUserTrapStatistics(Guid userId);
         Task<GlobalResponse> GetLastReadingToCurrentUserTrapsAsync();
+        Task<GlobalResponse> GetStatisticsForTrapReadingsAsInsectsAsync();
+        Task<GlobalResponse> GetCountOfMosuqitoesToLastSixDaysAsync(bool isMosquito);
     }
 }
