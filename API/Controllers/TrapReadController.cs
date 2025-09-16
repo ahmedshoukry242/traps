@@ -41,7 +41,25 @@ namespace API.Controllers
                 return BadRequest(res);
             return Ok(res);
         }
+        
+        [HttpGet("GetAllTrapReadingsPerDay")]
+        [Authorize(Roles = $"{RoleName.Superadmin},{RoleName.SuperVisor},{RoleName.User}")]
+        public async Task<ActionResult<GlobalResponse>> GetAllTrapReadingsPerDayAsync([FromQuery]ReadRequestDto model)
+        {
+            var res = await _trapReadService.GetAllTrapReadingsPerDayAsync(model);
+            if (!res.IsSuccess)
+                return BadRequest(res);
+            return Ok(res);
+        }
 
+        [HttpGet("GetAllTrapReadsChart")]
+        public async Task<ActionResult<GlobalResponse>> GetAllTrapReadsChart([FromQuery]ReadRequestChartDto model)
+        {
+            var res = await _trapReadService.GetAllTrapReadsChart(model);
+            if (!res.IsSuccess)
+                return BadRequest(res);
+            return Ok(res);
+        }
 
         [HttpGet("GetStatisticsOfTrapsOnlyCurrentUser")]
         [Authorize]

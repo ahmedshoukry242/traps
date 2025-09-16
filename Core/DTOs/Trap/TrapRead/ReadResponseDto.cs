@@ -33,18 +33,23 @@ namespace Core.DTOs.Trap.TrapRead
             public int Readingsmall { get; set; }
             public int ReadingLarg { get; set; }
             public int ReadingMosuqitoes { get; set; }
-            public string ReadingTempIn { get; set; } = string.Empty;
-            public string ReadingTempOut { get; set; } = string.Empty;
-            public string ReadingWindSpeed { get; set; } = string.Empty;
-            public string ReadingHumidty { get; set; } = string.Empty;
+            public int ReadingTempIn { get; set; } 
+            public int ReadingTempOut { get; set; } 
+            public int ReadingWindSpeed { get; set; } 
+            public int ReadingHumidty { get; set; } 
             public int ReadingFly { get; set; }
-            public string BigBattery { get; set; } = string.Empty;
-            public string SmallBattery { get; set; } = string.Empty;
+            public int BigBattery { get; set; } 
+            public int SmallBattery { get; set; } 
         }
 
         public class ReadResponseDto : ReadProjectionDto
         {
             public new string ReadingTime { get; set; } = string.Empty;
+        }
+        public class GrouppedReadingResponse
+        {
+            public DateOnly Date { get; set; }
+            public List<ReadResponseDto> TrapReadingsData { get; set; }
         }
 
         public class LastReadingResponseDto : ReadBasicDataDto
@@ -59,6 +64,31 @@ namespace Core.DTOs.Trap.TrapRead
             public int? ReadingMosuqitoes { get; set; }
         }
 
+
+
+
+        public class TrapReadsChartProjectionDto
+        {
+            public DateOnly Date { get; set; }
+
+            public int ReadingSmall { get; set; }
+            public int ReadingLarg { get; set; }
+            public int ReadingMosuqitoes { get; set; }
+            public int ReadingFly { get; set; }
+
+            public double ReadingTempIn { get; set; }
+            public double ReadingTempOut { get; set; }
+            public double ReadingWindSpeed { get; set; }
+            public double ReadingHumidty { get; set; }
+
+            //public int Battery { get; set; }
+            public int BigBattery { get; set; }
+            public int SmallBattery { get; set; }
+        }
+        public class TrapReadsChartDto : TrapReadsChartProjectionDto
+        {
+            public new string Date { get; set; } = string.Empty;
+        }
 
     }
 }

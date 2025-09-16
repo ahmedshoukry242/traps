@@ -17,4 +17,8 @@ namespace Core.DTOs.Trap.TrapRead
         public int PageSize { get; set; } = 10;
         public int PageNumber { get; set; } = 1;
     }
+    public class ReadRequestChartDto : ReadRequestDto
+    {
+        public int FiltertrapReading { get; set; }
+    }
 }
