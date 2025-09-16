@@ -1,4 +1,4 @@
-﻿using Core.Constants;
+using Core.Constants;
 using Core.DTOs;
 using Core.DTOs.Trap.Statistic;
 using Core.DTOs.Trap.TrapRead;
@@ -58,6 +58,39 @@ namespace API.Controllers
                 return BadRequest(result);
             return Ok(result);
         }
+
+        [HttpGet("GetCountOfMosuqitoesToLast12Months")]
+        [Authorize]
+        public async Task<ActionResult<MonthlyMosquitoCountResponseDto>> GetCountOfMosuqitoesToLast12Months()
+        {
+            var result = await _trapReadService.GetCountOfMosuqitoesToLast12Months();
+            if (!result.isSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpGet("GetCountOfMosuqitoesPer6Month")]
+        [Authorize]
+        public async Task<ActionResult<GlobalResponse<List<MonthlyMosquitoCountPer6MonthDto>>>> GetCountOfMosuqitoesPer6Month()
+        {
+
+            var result = await _trapReadService.GetCountOfMosuqitoesPer6Month();
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpGet("GetMosquitoStatisticsLast6Months")]
+        [Authorize]
+        public async Task<ActionResult<Response<IEnumerable<GetCountOfMosuqitoesPer6MonthResponse>>>> GetMosquitoStatisticsLast6Months()
+        {
+            var result = await _trapReadService.GetMosquitoStatisticsLast6Months();
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+     
 
     }
 }
