@@ -79,14 +79,14 @@ namespace API.Controllers
 
         [Authorize(Roles = $"{RoleName.Superadmin},{RoleName.User},{RoleName.UserChild},{RoleName.SuperVisor}")]
         [HttpGet("GetTrapsLastRead")]
-        public async Task<ActionResult<GlobalResponse>> GetLastReadingToCurrentUserTrapsAsync()
+        public async Task<ActionResult<GlobalResponse>> GetLastReadingToCurrentUserTrapsAsync(int? trapId)
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (string.IsNullOrEmpty(userId))
             {
                 return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
             }
-            var result = await _trapReadService.GetLastReadingToCurrentUserTrapsAsync();
+            var result = await _trapReadService.GetTrapsLastRead(trapId);
             if (!result.IsSuccess)
                 return BadRequest(result);
             return Ok(result);

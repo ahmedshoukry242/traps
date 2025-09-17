@@ -13,7 +13,7 @@ namespace Core.Interfaces.IServices
     {
         Task<GlobalResponse> CreateTrapReading(ReadDetailsCreateDto dto);
         Task<GlobalResponse> GetAllTrapReadingsAsync(ReadRequestDto model);
-        Task<GlobalResponse> GetLastReadingToCurrentUserTrapsAsync();
+        Task<GlobalResponse> GetTrapsLastRead(int? trapId);
         Task<GlobalResponse> GetAllTrapReadingsPerDayAsync(ReadRequestDto model);
         Task<GlobalResponse> GetAllTrapReadsChart(ReadRequestChartDto model);
         Task<GlobalResponse<StatisticsDto>> GetUserTrapStatistics(Guid userId);

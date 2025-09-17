@@ -38,6 +38,7 @@ namespace Service.Services
         }
 
 
+
         #region Getting Data
         public async Task<GlobalResponse> CreateTrapReading(ReadDetailsCreateDto dto)
         {
@@ -172,11 +173,13 @@ namespace Service.Services
             return new GlobalResponse<List<ReadResponseDto>> { Data = mappedData.OrderByDescending(x => x.ReadingDate).ToList(), /*Count = count,*/ IsSuccess = true, Message = "Data retrieved!", StatusCode = HttpStatusCode.OK };
 
         }
-        public async Task<GlobalResponse> GetLastReadingToCurrentUserTrapsAsync()
+        public async Task<GlobalResponse> GetTrapsLastRead(int? trapId)
         {
 
             var userRole = _userBasicData.GetRoleName();
             var userId = _userBasicData.GetUserId();
+
+
 
             var trapsLastReadQuery = from traps in _unitOfWork.TrapRepository.GetAllQueryableAsNoTracking()
 
@@ -189,6 +192,10 @@ namespace Service.Services
                                      let userTraps = traps.UserTraps.Select(x => x.UserId)
 
                                      let readDetails = trapReads != null ? trapReads.readDetails.OrderByDescending(d => d.Time).FirstOrDefault() : null
+
+                                     // specific trap
+                                     where trapId == null || traps.Id == trapId
+
                                      select new
                                      {
                                          traps,
@@ -201,6 +208,7 @@ namespace Service.Services
 
             if (userRole != RoleName.Superadmin)
                 trapsLastReadQuery = trapsLastReadQuery.Where(x => x.userTraps.Contains(userId));
+
 
             //var sql = trapsLastReadQuery.ToQueryString();
 
@@ -405,7 +413,7 @@ namespace Service.Services
                   .GroupBy(x => new { x.Date.Year, x.Date.Month })
                   .Select(g => new TrapReadsChartDto
                   {
-                      Date = g.Select(c=>c.Date).FirstOrDefault().ToString("MMMM"),
+                      Date = g.Select(c => c.Date).FirstOrDefault().ToString("MMMM"),
                       ReadingSmall = g.Sum(x => x.ReadingSmall),
                       ReadingLarg = g.Sum(x => x.ReadingLarg),
                       ReadingMosuqitoes = g.Sum(x => x.ReadingMosuqitoes),
@@ -618,7 +626,7 @@ namespace Service.Services
             }
             else
             {
-                 
+
 
                 list = (await _unitOfWork.UserTrapsRepository.GetAllQueryableAsNoTracking()
                    .Where(ut => ut.UserId == userId)
@@ -629,7 +637,7 @@ namespace Service.Services
                        tr.Date,
                        rd.ReadingMosuqitoes,
                        rd.ReadingFly
-                   })) .ToListAsync())
+                   })).ToListAsync())
                    .GroupBy(x => x.Date)
                    .Select(group => new MosuqitoesCountDto
                    {

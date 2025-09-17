@@ -1,0 +1,40 @@
+# Build artifacts
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.rsuser
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Logs & temp
+*.log
+*.tlog
+*.tmp
+
+# Secrets & configs
+appsettings.Development.json
+secrets.json
+.env
+
+# Generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+*.ldf
+*.mdf
+
+# Other
+*.vspscc
+*.vssscc
