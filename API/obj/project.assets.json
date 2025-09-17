@@ -5486,23 +5486,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\prog4\\.nuget\\packages\\": {},
+    "C:\\Users\\prog2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\prog2\\Desktop\\repos\\traps\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\prog4\\.nuget\\packages\\",
-      "outputPath": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\API\\obj\\",
+      "projectPath": "C:\\Users\\prog2\\Desktop\\repos\\traps\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\prog2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\prog2\\Desktop\\repos\\traps\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\prog4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\prog2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5511,18 +5511,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\prog2\\Desktop\\repos\\traps\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\prog2\\Desktop\\repos\\traps\\Infrastructure\\Infrastructure.csproj"
             },
-            "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Service.csproj": {
-              "projectPath": "E:\\Software\\Ahmed Shoukry 20250910\\Traps - Shokry\\Service\\Service.csproj"
+            "C:\\Users\\prog2\\Desktop\\repos\\traps\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\prog2\\Desktop\\repos\\traps\\Service\\Service.csproj"
             }
           }
         }

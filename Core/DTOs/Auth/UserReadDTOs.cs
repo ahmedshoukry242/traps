@@ -25,7 +25,7 @@ namespace Core.DTOs.Auth
             public string? Email { get; set; }
             public string? Name { get; set; }
             //public Guid RoleId { get; set; }
-            public string? RoleName { get; set; }
+            public IEnumerable<string>? RoleNames { get; set; }
             public IEnumerable<int>? TrapIds { get; set; }
             public bool IsLocked { get; set; }
             public string? LockedReason { get; set; }

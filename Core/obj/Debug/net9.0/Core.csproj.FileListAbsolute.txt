@@ -72,4 +72,29 @@ E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.dll
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\refint\Core.dll
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.pdb
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\ref\Core.dll
-E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Core\obj\Debug\net9.0\Core.sourcelink.json
+C:\Users\prog2\source\repos\traps\Core\bin\Debug\net9.0\Core.deps.json
+C:\Users\prog2\source\repos\traps\Core\bin\Debug\net9.0\Core.dll
+C:\Users\prog2\source\repos\traps\Core\bin\Debug\net9.0\Core.pdb
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\Core.sourcelink.json
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\Core.dll
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\refint\Core.dll
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\Core.pdb
+C:\Users\prog2\source\repos\traps\Core\obj\Debug\net9.0\ref\Core.dll
+C:\Users\prog2\Desktop\repos\traps\Core\bin\Debug\net9.0\Core.deps.json
+C:\Users\prog2\Desktop\repos\traps\Core\bin\Debug\net9.0\Core.dll
+C:\Users\prog2\Desktop\repos\traps\Core\bin\Debug\net9.0\Core.pdb
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\Core.sourcelink.json
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\Core.dll
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\refint\Core.dll
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\Core.pdb
+C:\Users\prog2\Desktop\repos\traps\Core\obj\Debug\net9.0\ref\Core.dll

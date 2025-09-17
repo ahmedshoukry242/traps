@@ -596,138 +596,55 @@
   },
   {
     "ContainingType": "API.Controllers.TrapReadController",
-    "Method": "GetAllTrapReadingsPerDayAsync",
-    "RelativePath": "api/TrapRead/GetAllTrapReadingsPerDay",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "TrapId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "StartDate",
-        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "EndDate",
-        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageNumber",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Core.DTOs.GlobalResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "API.Controllers.TrapReadController",
-    "Method": "GetAllTrapReadsChart",
-    "RelativePath": "api/TrapRead/GetAllTrapReadsChart",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "FiltertrapReading",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "TrapId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "StartDate",
-        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "EndDate",
-        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageNumber",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Core.DTOs.GlobalResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "API.Controllers.TrapReadController",
-    "Method": "GetCountOfMosuqitoesToLastSixDaysAsync",
-    "RelativePath": "api/TrapRead/GetCountOfMosuqitoesPerSevenDays",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "isMosquitoe",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Core.DTOs.GlobalResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "API.Controllers.TrapReadController",
-    "Method": "GetStatisticsForTrapReadingsAsInsectsAsync",
-    "RelativePath": "api/TrapRead/GetStatisticsForAllTrapsReadingsAsInsects",
+    "Method": "GetCountOfMosuqitoesPer6Month",
+    "RelativePath": "api/TrapRead/GetCountOfMosuqitoesPer6Month",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Core.DTOs.GlobalResponse",
+        "Type": "Core.DTOs.GlobalResponse\u00601[[System.Collections.Generic.List\u00601[[Core.DTOs.Trap.Statistic.MonthlyMosquitoCountPer6MonthDto, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetCountOfMosuqitoesToLast12Months",
+    "RelativePath": "api/TrapRead/GetCountOfMosuqitoesToLast12Months",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.Trap.TrapRead.MonthlyMosquitoCountResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetMosquitoStatisticsLast6Months",
+    "RelativePath": "api/TrapRead/GetMosquitoStatisticsLast6Months",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.Response\u00601[[System.Collections.Generic.IEnumerable\u00601[[Core.DTOs.Trap.TrapRead.GetCountOfMosuqitoesPer6MonthResponse, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -748,26 +665,6 @@
     "ReturnTypes": [
       {
         "Type": "Core.DTOs.GlobalResponse\u00601[[Core.DTOs.Trap.Statistic.StatisticsDto, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "API.Controllers.TrapReadController",
-    "Method": "GetLastReadingToCurrentUserTrapsAsync",
-    "RelativePath": "api/TrapRead/GetTrapsLastRead",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Core.DTOs.GlobalResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -49,7 +49,7 @@ namespace Service.Services.Auth
                 Id = x.Key,
                 Email = x.Select(e => e.Email).FirstOrDefault(),
                 Name = x.Select(n => n.Name).FirstOrDefault(),
-                RoleName = x.Select(r => r.RoleName).FirstOrDefault(),
+                RoleNames = x.Select(r => r.RoleName),
                 IsLocked = x.Select(i => i.IsLocked).FirstOrDefault(),
                 LockedReason = x.Select(l => l.LockedReason).FirstOrDefault(),
                 TrapIds = x.Select(t => t.TrapId).FirstOrDefault() != null ? x.Select(t => t.TrapId.Value) : null
@@ -72,7 +72,7 @@ namespace Service.Services.Auth
                 Id = x.Key,
                 Email = x.Select(e => e.Email).FirstOrDefault(),
                 Name = x.Select(n => n.Name).FirstOrDefault(),
-                RoleName = x.Select(r => r.RoleName).FirstOrDefault(),
+                RoleNames = x.Select(r => r.RoleName),
                 IsLocked = x.Select(i => i.IsLocked).FirstOrDefault(),
                 LockedReason = x.Select(l => l.LockedReason).FirstOrDefault(),
                 TrapIds = x.Select(t => t.TrapId).FirstOrDefault() != null ? x.Select(t => t.TrapId.Value) : null

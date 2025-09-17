@@ -1,4 +1,4 @@
-﻿using Core.DTOs;
+using Core.DTOs;
 using Core.DTOs.Trap.Statistic;
 using Core.DTOs.Trap.TrapRead;
 using System;
@@ -13,11 +13,9 @@ namespace Core.Interfaces.IServices
     {
         Task<GlobalResponse> CreateTrapReading(ReadDetailsCreateDto dto);
         Task<GlobalResponse> GetAllTrapReadingsAsync(ReadRequestDto model);
-        Task<GlobalResponse> GetLastReadingToCurrentUserTrapsAsync();
-        Task<GlobalResponse> GetAllTrapReadingsPerDayAsync(ReadRequestDto model);
-        Task<GlobalResponse> GetAllTrapReadsChart(ReadRequestChartDto model);
         Task<GlobalResponse<StatisticsDto>> GetUserTrapStatistics(Guid userId);
-        Task<GlobalResponse> GetStatisticsForTrapReadingsAsInsectsAsync();
-        Task<GlobalResponse> GetCountOfMosuqitoesToLastSixDaysAsync(bool isMosquito);
+        Task<MonthlyMosquitoCountResponseDto> GetCountOfMosuqitoesToLast12Months();
+        Task<GlobalResponse<List<MonthlyMosquitoCountPer6MonthDto>>> GetCountOfMosuqitoesPer6Month();
+        Task<Response<IEnumerable<GetCountOfMosuqitoesPer6MonthResponse>>> GetMosquitoStatisticsLast6Months();
     }
 }

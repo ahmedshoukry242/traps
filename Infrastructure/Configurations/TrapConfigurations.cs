@@ -1,4 +1,4 @@
-﻿using AutoMapper.Execution;
+using AutoMapper.Execution;
 using Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -33,7 +33,7 @@ namespace Infrastructure.Configurations
                 .IsRequired(false);
 
             builder.HasOne(x=>x.Country).WithMany(x=>x.Traps).HasForeignKey(x => x.CountryId).IsRequired(false);
-            builder.HasOne(x=>x.State).WithMany(x => x.Traps).HasForeignKey(x => x.CountryId).IsRequired(false);
+            builder.HasOne(x=>x.State).WithMany(x => x.Traps).HasForeignKey(x => x.StateId).IsRequired(false);
             builder.HasOne(x=>x.Category).WithMany(x=>x.Traps).HasForeignKey(x=>x.CategoryId).IsRequired(false);
             builder.HasMany(x => x.TrapEmergencies).WithOne(x => x.Trap).HasForeignKey(x => x.TrapId).IsRequired();
         }
