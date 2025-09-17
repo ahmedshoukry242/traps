@@ -90,4 +90,35 @@ E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Servi
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\refint\Service.dll
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.pdb
 E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\ref\Service.dll
-E:\Software\Ahmed Shoukry 20250910\Traps - Shokry\Service\obj\Debug\net9.0\Service.sourcelink.json
+C:\Users\prog2\source\repos\traps\Service\bin\Debug\net9.0\Service.deps.json
+C:\Users\prog2\source\repos\traps\Service\bin\Debug\net9.0\Service.dll
+C:\Users\prog2\source\repos\traps\Service\bin\Debug\net9.0\Service.pdb
+C:\Users\prog2\source\repos\traps\Service\bin\Debug\net9.0\Core.dll
+C:\Users\prog2\source\repos\traps\Service\bin\Debug\net9.0\Core.pdb
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\Service.sourcelink.json
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\Service.dll
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\refint\Service.dll
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\Service.pdb
+C:\Users\prog2\source\repos\traps\Service\obj\Debug\net9.0\ref\Service.dll
+C:\Users\prog2\Desktop\repos\traps\Service\bin\Debug\net9.0\Service.deps.json
+C:\Users\prog2\Desktop\repos\traps\Service\bin\Debug\net9.0\Service.dll
+C:\Users\prog2\Desktop\repos\traps\Service\bin\Debug\net9.0\Service.pdb
+C:\Users\prog2\Desktop\repos\traps\Service\bin\Debug\net9.0\Core.dll
+C:\Users\prog2\Desktop\repos\traps\Service\bin\Debug\net9.0\Core.pdb
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\Service.sourcelink.json
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\Service.dll
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\refint\Service.dll
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\Service.pdb
+C:\Users\prog2\Desktop\repos\traps\Service\obj\Debug\net9.0\ref\Service.dll

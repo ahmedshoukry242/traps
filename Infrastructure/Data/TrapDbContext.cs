@@ -1,4 +1,4 @@
-﻿using Core.Entities;
+using Core.Entities;
 using Core.Entities.Auth;
 using Core.Entities.Lookups;
 using Infrastructure.Seeding;
@@ -20,6 +20,12 @@ namespace Infrastructure.Data
         {
         }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.ConfigureWarnings(warnings =>
+                warnings.Ignore(Microsoft.EntityFrameworkCore.Diagnostics.RelationalEventId.PendingModelChangesWarning));
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -35,6 +41,8 @@ namespace Infrastructure.Data
 
         public DbSet<Company> Companies { get; set; }
         public DbSet<Trap> Traps { get; set; }
+        public DbSet<TrapRead> TrapReads { get; set; }
+        public DbSet<ReadDetails> ReadDetails { get; set; }
         public DbSet<UserTraps> UserTraps { get; set; }
         public DbSet<Country> countries { get; set; }
         public DbSet<State> States { get; set; }
