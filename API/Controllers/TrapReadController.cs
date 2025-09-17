@@ -1,4 +1,5 @@
-﻿using Core.Constants;
+﻿using Azure;
+using Core.Constants;
 using Core.DTOs;
 using Core.DTOs.Trap.Statistic;
 using Core.DTOs.Trap.TrapRead;
@@ -79,14 +80,14 @@ namespace API.Controllers
 
         [Authorize(Roles = $"{RoleName.Superadmin},{RoleName.User},{RoleName.UserChild},{RoleName.SuperVisor}")]
         [HttpGet("GetTrapsLastRead")]
-        public async Task<ActionResult<GlobalResponse>> GetLastReadingToCurrentUserTrapsAsync(int? trapId)
+        public async Task<ActionResult<GlobalResponse>> GetLastReadingToCurrentUserTrapsAsync(Guid? userId,int? trapId)
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userId))
+            var validateUserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(validateUserId))
             {
                 return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
             }
-            var result = await _trapReadService.GetTrapsLastRead(trapId);
+            var result = await _trapReadService.GetTrapsLastRead(userId,trapId);
             if (!result.IsSuccess)
                 return BadRequest(result);
             return Ok(result);
@@ -120,6 +121,30 @@ namespace API.Controllers
                 return BadRequest(result);
             return Ok(result);
         }
+
+        #region New
+        [HttpGet("GetCountOfMosuqitoesToLast12Months")]
+        [Authorize]
+        public async Task<ActionResult<MonthlyMosquitoCountResponseDto>> GetCountOfMosuqitoesToLast12Months()
+        {
+            var result = await _trapReadService.GetCountOfMosuqitoesToLast12Months();
+            if (!result.isSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpGet("GetCountOfMosuqitoesPer6Month")]
+        [Authorize]
+        public async Task<ActionResult<GlobalResponse<List<MonthlyMosquitoCountPer6MonthDto>>>> GetCountOfMosuqitoesPer6Month()
+        {
+
+            var result = await _trapReadService.GetCountOfMosuqitoesPer6Month();
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        #endregion
 
 
 

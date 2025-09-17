@@ -693,6 +693,26 @@
   },
   {
     "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetCountOfMosuqitoesPer6Month",
+    "RelativePath": "api/TrapRead/GetCountOfMosuqitoesPer6Month",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.GlobalResponse\u00601[[System.Collections.Generic.List\u00601[[Core.DTOs.Trap.TrapRead.MonthlyMosquitoCountPer6MonthDto, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
     "Method": "GetCountOfMosuqitoesToLastSixDaysAsync",
     "RelativePath": "api/TrapRead/GetCountOfMosuqitoesPerSevenDays",
     "HttpMethod": "GET",
@@ -708,6 +728,26 @@
     "ReturnTypes": [
       {
         "Type": "Core.DTOs.GlobalResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetCountOfMosuqitoesToLast12Months",
+    "RelativePath": "api/TrapRead/GetCountOfMosuqitoesToLast12Months",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.Trap.TrapRead.MonthlyMosquitoCountResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -765,6 +805,11 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
       {
         "Name": "trapId",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",

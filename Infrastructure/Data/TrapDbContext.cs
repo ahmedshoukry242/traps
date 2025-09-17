@@ -39,6 +39,7 @@ namespace Infrastructure.Data
         public DbSet<Country> countries { get; set; }
         public DbSet<State> States { get; set; }
         public DbSet<Category> Categories{ get; set; }
+        public DbSet<ReadDetails> ReadDetails { get; set; }
 
     }
 }
