@@ -15,7 +15,7 @@ namespace Infrastructure.Data.Migrations
                 table: "TrapReads");
 
             migrationBuilder.CreateIndex(
-                name: "IX_TrapReads_TrapId_Date",
+                name: "IX_TrapReads_TrapId_Date_Up",
                 table: "TrapReads",
                 columns: new[] { "TrapId", "Date" });
         }
@@ -24,7 +24,7 @@ namespace Infrastructure.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropIndex(
-                name: "IX_TrapReads_TrapId_Date",
+                name: "IX_TrapReads_TrapId_Date_Down",
                 table: "TrapReads");
 
             migrationBuilder.CreateIndex(

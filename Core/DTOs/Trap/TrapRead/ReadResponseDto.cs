@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,14 +25,14 @@ namespace Core.DTOs.Trap.TrapRead
             public int? Co2 { get; set; } =0;
             public int? Counter { get; set; } = 0;
             public string Co2Val { get; set; } = string.Empty;
-            public string Readingsmall { get; set; } = string.Empty;
-            public string ReadingLarg { get; set; } = string.Empty;
-            public string ReadingMosuqitoes { get; set; } = string.Empty;
+            public int Readingsmall { get; set; } = 0;
+            public int ReadingLarg { get; set; } = 0;
+            public int ReadingMosuqitoes { get; set; } = 0;
             public string ReadingTempIn { get; set; } = string.Empty;
             public string ReadingTempOut { get; set; } = string.Empty;
             public string ReadingWindSpeed { get; set; } = string.Empty;
             public string ReadingHumidty { get; set; } = string.Empty;
-            public string ReadingFly { get; set; } = string.Empty;
+            public int ReadingFly { get; set; } = 0;
             public string BigBattery { get; set; } = string.Empty;
             public string SmallBattery { get; set; } = string.Empty;
         }

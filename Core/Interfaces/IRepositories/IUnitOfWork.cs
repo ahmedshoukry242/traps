@@ -1,4 +1,4 @@
-﻿using Core.Entities;
+using Core.Entities;
 using Core.Entities.Auth;
 using Core.Entities.Lookups;
 using Microsoft.AspNetCore.Identity;
@@ -19,7 +19,7 @@ namespace Core.Interfaces.IRepositories
         IBaseRepository<Company> CompanyRepository { get; }
         IBaseRepository<Trap> TrapRepository { get; }
         IBaseRepository<UserTraps> UserTrapsRepository { get; }
-        IBaseRepository<TrapRead> TrapReadRepository { get; }
+        ITrapReadRepository TrapReadRepository { get; }
         IBaseRepository<ReadDetails> ReadDetailsRepository { get; }
         IBaseRepository<TrapValveQutSchedule> TrapValveQutScheduleRepository { get; }
         IBaseRepository<TrapFanSchedule> TrapFanScheduleRepository { get; }

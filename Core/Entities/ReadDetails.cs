@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,9 +18,9 @@ namespace Core.Entities
         public int Fan { get; set; }
         public int Co2 { get; set; }
         public string Co2Val { get; set; }
-        public string ReadingSmall { get; set; }
-        public string ReadingLarg { get; set; }
-        public string ReadingMosuqitoes { get; set; }
+        public int ReadingSmall { get; set; }
+        public int ReadingLarg { get; set; }
+        public int ReadingMosuqitoes { get; set; }
         public string ReadingTempIn { get; set; }
         public string ReadingTempOut { get; set; }
         public string ReadingWindSpeed { get; set; }
@@ -29,7 +29,7 @@ namespace Core.Entities
         //public string Battery { get; set; }
         //public string Reception { get; set; }
         //public string Power_Draw { get; set; }
-        public string ReadingFly { get; set; }
+        public int ReadingFly { get; set; }
         public string BigBattery { get; set; }
         public string SmallBattery { get; set; }
         public bool IsDone { get; set; }

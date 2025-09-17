@@ -471,7 +471,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Core.DTOs.GlobalResponse",
+        "Type": "Core.DTOs.SimpleResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -585,6 +585,86 @@
     "ReturnTypes": [
       {
         "Type": "Core.DTOs.GlobalResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetCountOfMosuqitoesPer6Month",
+    "RelativePath": "api/TrapRead/GetCountOfMosuqitoesPer6Month",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.GlobalResponse\u00601[[System.Collections.Generic.List\u00601[[Core.DTOs.Trap.Statistic.MonthlyMosquitoCountPer6MonthDto, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetCountOfMosuqitoesToLast12Months",
+    "RelativePath": "api/TrapRead/GetCountOfMosuqitoesToLast12Months",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.Trap.TrapRead.MonthlyMosquitoCountResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetMosquitoStatisticsLast6Months",
+    "RelativePath": "api/TrapRead/GetMosquitoStatisticsLast6Months",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.Response\u00601[[System.Collections.Generic.IEnumerable\u00601[[Core.DTOs.Trap.TrapRead.GetCountOfMosuqitoesPer6MonthResponse, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TrapReadController",
+    "Method": "GetStatisticsOfTrapsOnlyCurrentUser",
+    "RelativePath": "api/TrapRead/GetStatisticsOfTrapsOnlyCurrentUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Core.DTOs.GlobalResponse\u00601[[Core.DTOs.Trap.Statistic.StatisticsDto, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
