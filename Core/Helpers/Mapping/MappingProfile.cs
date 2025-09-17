@@ -23,7 +23,7 @@ namespace Core.Helpers.Mapping
             #region Trap
 
             CreateMap<TrapCreateDto, Trap>()
-                .ForMember(x => x.SerialNumber, x => x.MapFrom(f => !string.IsNullOrEmpty(f.SerialNumber) ? f.SerialNumber.Trim() : ""));
+                .ForMember(x=>x.SerialNumber,x=>x.MapFrom(f=> !string.IsNullOrEmpty(f.SerialNumber) ? f.SerialNumber.Trim() : ""));
             //CreateMap<TrapCounterScheduleDto, TrapCounterSchedule>();
             //CreateMap<TrapFanScheduleDto, TrapFanSchedule>();
             //CreateMap<TrapValveQutSchedulsDto, TrapValveQutSchedule>();
@@ -40,7 +40,7 @@ namespace Core.Helpers.Mapping
             CreateMap<Trap, ConfigurationsRead>()
                 .ForMember(des => des.Status, src => src.MapFrom(src => src.IsCounterOn ? "on" : "Off"))
                 .ForMember(des => des.Read, src => src.MapFrom(src => src.IsCounterReadingFromSimCard))
-                .ForMember(des => des.File, src => src.MapFrom(src => src.ReadingDate == DateOnly.MinValue ? "" : src.ReadingDate.ToString()))
+                .ForMember(des => des.File, src => src.MapFrom(src => src.ReadingDate== DateOnly.MinValue ? "" : src.ReadingDate.ToString()))
                 .ForMember(des => des.FileDate, src => src.MapFrom(src => src.FileDate))
                 .ForMember(des => des.Serial, src => src.MapFrom(src => src.SerialNumber))
                 .ForMember(des => des.Co2, src => src.MapFrom(src => src.ValveQut ?? 0))
@@ -50,7 +50,7 @@ namespace Core.Helpers.Mapping
 
             #region Trap Read
             CreateMap<ReadProjectionDto, ReadResponseDto>()
-                .ForMember(x => x.ReadingTime, m => m.MapFrom(f => f.ReadingTime.ToString("HH:mm")));
+                .ForMember(x=>x.ReadingTime,m=>m.MapFrom(f=>f.ReadingTime.ToString("HH:mm")));
             #endregion
 
         }

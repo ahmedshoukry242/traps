@@ -1,4 +1,4 @@
-﻿using Core.Entities;
+using Core.Entities;
 using Core.Entities.Auth;
 using Core.Entities.Lookups;
 using Core.Interfaces.IRepositories;
@@ -25,7 +25,7 @@ namespace Infrastructure.Repositories
         public IBaseRepository<Company> CompanyRepository { get; private set; }
         public IBaseRepository<Trap> TrapRepository { get; private set; }
         public IBaseRepository<UserTraps> UserTrapsRepository { get; private set; }
-        public IBaseRepository<TrapRead> TrapReadRepository { get; private set; }
+        public ITrapReadRepository TrapReadRepository { get; private set; }
         public IBaseRepository<ReadDetails> ReadDetailsRepository { get; private set; }
         public IBaseRepository<TrapValveQutSchedule> TrapValveQutScheduleRepository { get; private set; }
         public IBaseRepository<TrapFanSchedule> TrapFanScheduleRepository { get; private set; }
@@ -45,7 +45,7 @@ namespace Infrastructure.Repositories
             CompanyRepository = new BaseRepository<Company>(_context);
             TrapRepository = new BaseRepository<Trap>(_context);
             UserTrapsRepository = new BaseRepository<UserTraps>(_context);
-            TrapReadRepository = new BaseRepository<TrapRead>(_context);
+            TrapReadRepository = new TrapReadRepository(_context);
             ReadDetailsRepository = new BaseRepository<ReadDetails>(_context);
             TrapValveQutScheduleRepository = new BaseRepository<TrapValveQutSchedule>(_context);
             TrapFanScheduleRepository = new BaseRepository<TrapFanSchedule>(_context);

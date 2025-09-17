@@ -1,4 +1,4 @@
-﻿using Core.Constants;
+using Core.Constants;
 using Core.DTOs;
 using Core.DTOs.Trap.Statistic;
 using Core.DTOs.Trap.TrapRead;
@@ -41,25 +41,7 @@ namespace API.Controllers
                 return BadRequest(res);
             return Ok(res);
         }
-        
-        [HttpGet("GetAllTrapReadingsPerDay")]
-        [Authorize(Roles = $"{RoleName.Superadmin},{RoleName.SuperVisor},{RoleName.User}")]
-        public async Task<ActionResult<GlobalResponse>> GetAllTrapReadingsPerDayAsync([FromQuery]ReadRequestDto model)
-        {
-            var res = await _trapReadService.GetAllTrapReadingsPerDayAsync(model);
-            if (!res.IsSuccess)
-                return BadRequest(res);
-            return Ok(res);
-        }
 
-        [HttpGet("GetAllTrapReadsChart")]
-        public async Task<ActionResult<GlobalResponse>> GetAllTrapReadsChart([FromQuery]ReadRequestChartDto model)
-        {
-            var res = await _trapReadService.GetAllTrapReadsChart(model);
-            if (!res.IsSuccess)
-                return BadRequest(res);
-            return Ok(res);
-        }
 
         [HttpGet("GetStatisticsOfTrapsOnlyCurrentUser")]
         [Authorize]
@@ -77,53 +59,38 @@ namespace API.Controllers
             return Ok(result);
         }
 
-        [Authorize(Roles = $"{RoleName.Superadmin},{RoleName.User},{RoleName.UserChild},{RoleName.SuperVisor}")]
-        [HttpGet("GetTrapsLastRead")]
-        public async Task<ActionResult<GlobalResponse>> GetLastReadingToCurrentUserTrapsAsync()
+        [HttpGet("GetCountOfMosuqitoesToLast12Months")]
+        [Authorize]
+        public async Task<ActionResult<MonthlyMosquitoCountResponseDto>> GetCountOfMosuqitoesToLast12Months()
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userId))
-            {
-                return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
-            }
-            var result = await _trapReadService.GetLastReadingToCurrentUserTrapsAsync();
-            if (!result.IsSuccess)
+            var result = await _trapReadService.GetCountOfMosuqitoesToLast12Months();
+            if (!result.isSuccess)
                 return BadRequest(result);
             return Ok(result);
-
         }
 
-        [HttpGet("GetStatisticsForAllTrapsReadingsAsInsects")]
-        public async Task<ActionResult<GlobalResponse>> GetStatisticsForTrapReadingsAsInsectsAsync()
+        [HttpGet("GetCountOfMosuqitoesPer6Month")]
+        [Authorize]
+        public async Task<ActionResult<GlobalResponse<List<MonthlyMosquitoCountPer6MonthDto>>>> GetCountOfMosuqitoesPer6Month()
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userId))
-            {
-                return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
-            }
-            var result = await _trapReadService.GetStatisticsForTrapReadingsAsInsectsAsync();
+
+            var result = await _trapReadService.GetCountOfMosuqitoesPer6Month();
             if (!result.IsSuccess)
                 return BadRequest(result);
             return Ok(result);
         }
 
-        [HttpGet("GetCountOfMosuqitoesPerSevenDays")]
-        public async Task<ActionResult<GlobalResponse>> GetCountOfMosuqitoesToLastSixDaysAsync(bool isMosquitoe)
+        [HttpGet("GetMosquitoStatisticsLast6Months")]
+        [Authorize]
+        public async Task<ActionResult<Response<IEnumerable<GetCountOfMosuqitoesPer6MonthResponse>>>> GetMosquitoStatisticsLast6Months()
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userId))
-            {
-                return Unauthorized(new GlobalResponse<StatisticsDto> { IsSuccess = false, Message = "User not authenticated", StatusCode = System.Net.HttpStatusCode.Unauthorized });
-            }
-            var result = await _trapReadService.GetCountOfMosuqitoesToLastSixDaysAsync(isMosquitoe);
+            var result = await _trapReadService.GetMosquitoStatisticsLast6Months();
             if (!result.IsSuccess)
                 return BadRequest(result);
             return Ok(result);
         }
 
-
-
-
+     
 
     }
 }
